@@ -31,10 +31,10 @@ jobs:
       - name: Build Docker images
         run: | 
             echo Starting build...
-            docker-compose -f docker-compose.yml build
+            docker compose -f compose.yml build
 
       - name: Push Docker images
-        run: docker-compose -f docker-compose.yml push
+        run: docker compose -f compose.yml push
 
       - name: completion
         run: echo action has completed
