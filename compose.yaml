@@ -1,4 +1,6 @@
 services:
+    
+  #python app
   python-app:
     image: ghcr.io/riccardo-cpt/dpage/test-app
     build:
@@ -22,7 +24,8 @@ services:
         postgres-db:
             condition: service_healthy
     command: ["python", "main.py"]
-
+  
+  #DB postgres
   postgres-db:
     image: ghcr.io/riccardo-cpt/dpage/postgres:17.5-alpine3.22
     restart: always
@@ -43,6 +46,7 @@ services:
       timeout: 10s
       retries: 5
 
+  #pgadmin
   pgadmin:
     image: ghcr.io/riccardo-cpt/dpage/pgadmin4
     environment:
