@@ -5,6 +5,7 @@ services:
     image: ghcr.io/riccardo-cpt/dpage/test-app
     build:
       context: ./python-app
+      dockerfile: Dockerfile
       #Build variables
       args:
         PYTHON_VERSION: ${PYTHON_VERSION}
