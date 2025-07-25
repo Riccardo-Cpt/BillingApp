@@ -30,8 +30,8 @@ jobs:
 
       - name: Build Docker images
         run: | 
-            echo ls
-            echo ls..
+            ls
+            ls ..
             echo Starting build...
             docker compose -f compose.yml build
 
