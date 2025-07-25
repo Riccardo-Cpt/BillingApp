@@ -34,7 +34,7 @@ jobs:
             docker compose -f compose.yaml build
 
       - name: Push Docker images
-        run: docker compose -f compose.yml push
+        run: docker compose -f compose.yaml push
 
       - name: completion
         run: echo action has completed
