@@ -1,3 +1,4 @@
+LABEL org.opencontainers.image.source=https://github.com/octocat/my-repo
 # syntax=docker/dockerfile:1
 
 # Comments are provided throughout this file to help you get started.
