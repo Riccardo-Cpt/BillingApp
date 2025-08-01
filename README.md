@@ -33,6 +33,9 @@ TBD: provided list of keywords, associate to each keyword an information extract
 ## Table loader
 JSON file read as dataframe throug pandas library. Dataframe are then loaded to Postgres through sqlalchemy python library
 
+## API 
+Exports data to frontend Flask/Django REST framework (whatever is simpler).
+
 # Frontend Components
 TBD
 
