@@ -2,7 +2,7 @@ services:
     
   #python app
   python-app:
-    image: ghcr.io/riccardo-cpt/dpage/test-app
+    image: ghcr.io/riccardo-cpt/dpage/test-app #this image is contained in Github container registry
     build:
       context: ./python-app
       dockerfile: Dockerfile
@@ -18,8 +18,8 @@ services:
         - PYTHONUNBUFFERED=${PYTHONUNBUFFERED}
         - PG_HOST=${PG_HOST}
         - PG_NAME=${PG_DATABASE}
-        - PG_USER=${PG_USER}
-        - PG_PASSWORD=${PG_PASSWORD}
+        - PG_USER=${PG_USER_BACKEND}
+        - PG_PASSWORD=${PG_PASSWORD_BACKEND}
     user: ${UID}
     depends_on:
         postgres-db:
@@ -28,7 +28,7 @@ services:
   
   #DB postgres
   postgres-db:
-    image: ghcr.io/riccardo-cpt/dpage/postgres:17.5-alpine3.22
+    image: postgres:17.5-alpine3.22
     restart: always
     volumes:
         - db-data:/var/lib/postgresql/data
@@ -36,26 +36,30 @@ services:
     env_file: .env
     environment:
       POSTGRES_DB: ${PG_DATABASE}
-      PGUSER: ${PG_USER}
-      POSTGRES_PASSWORD: ${PG_PASSWORD}
+      PGUSER: ${PG_USER_BACKEND}
+      POSTGRES_PASSWORD: ${PG_PASSWORD_BACKEND}
       POSTGRES_HOST: ${PG_HOST} #host name must be equal as image name
     ports:
       - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "sh -c 'pg_isready -U ${PG_USER} -d ${PG_DATABASE}'"]
+      test: ["CMD-SHELL", "sh -c 'pg_isready -U ${PG_USER_BACKEND} -d ${PG_DATABASE}'"]
       interval: 10s
       timeout: 10s
       retries: 5
 
   #pgadmin
   pgadmin:
-    image: ghcr.io/riccardo-cpt/dpage/pgadmin4
+    image: dpage/pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: new_user@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: ${PG_PASSWORD}
+      PGADMIN_DEFAULT_PASSWORD: ${PG_PASSWORD_BACKEND}
     ports:
       - "80:80"
+    volumes:
+    - pgadmin-data:/var/lib/pgadmin #store connection information
+
       
 volumes:
   db-data:
+  pgadmin-data:
 

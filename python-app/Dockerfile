@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 ARG PYTHON_VERSION
-FROM python:${PYTHON_VERSION}-slim AS base
+FROM python:${PYTHON_VERSION} AS base
 
 LABEL org.opencontainers.image.source=https://github.com/Riccardo-Cpt/BillingApp
 

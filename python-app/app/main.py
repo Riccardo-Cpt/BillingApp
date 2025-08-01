@@ -6,8 +6,8 @@ if __name__ == "__main__":
     #retrieve database credentials from enviroment variables
     host = os.getenv("PG_HOST", "host does not exist")
     database = os.getenv("PG_NAME", "database does not exist")
-    user = os.getenv("PG_USER", "user does not exist")
-    password = os.getenv("PG_PASSWORD", "password does not exist")
+    user = os.getenv("PG_USER_BACKEND", "user does not exist")
+    password = os.getenv("PG_PASSWORD_BACKEND", "password does not exist")
     
     
     print(host, database, user, password)
