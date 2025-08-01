@@ -4,8 +4,8 @@
 
 1. [Introduction](#introduction)
 2. [Backend Components](#Backend-Components)
-   - [Email_loader](#Email-loader)
-   - [PDF_scanner](#PDF-scanner)
+   - [Email loader](#Email-loader)
+   - [PDF scanner](#PDF-scanner)
    - [Text parser](#Text-parser)
    - [Table loader](#Table-loader)
 4. [Postgres Tables](#Postgres-Tables)
@@ -33,9 +33,13 @@ TBD: provided list of keywords, associate to each keyword an information extract
 ## Table loader
 JSON file read as dataframe throug pandas library. Dataframe are then loaded to Postgres through sqlalchemy python library
 
+# Frontend Components
+TBD
+
 # Postgres Tables
-## Bronze
+## Input layer
 ### Table1: SUPPLY_DATA
+This table contains information about energy supplier, contract type, reference period and other anagraphical information
 | Column Name | Data Type | Constraints |
 |-------------|-----------|-------------|
 | CD_SUPPLIER|String||
@@ -54,6 +58,9 @@ JSON file read as dataframe throug pandas library. Dataframe are then loaded to 
 | DT_END_ANNUAL_EXP | Date | Format: YYYY-MM-DD |
 | DT_INGESTION| Date | Format: YYYY-MM-DD |
 
+## Output layer
+
 # User Accounts
 ## Postgres
-* frontend: 
+* dev_frontend: read access only to Input layer
+* dev_backend: all privileges on all layers
