@@ -19,7 +19,7 @@
 Goal of this app is to track electrical bills expenses by scanning PDF files, extract relevant information and store them in a Postgres DB.
 A frontend service should pull data from postgres and create dashboards showing only relevant information.
 
-# Backend Components
+# ETL
 
 ## Email_loader
 TBD: goal access gmail account throug Oauth2 autentication, intercept new files and download them in dedicated folder. Understand how to securely download files inside docker container.
@@ -33,7 +33,9 @@ TBD: provided list of keywords, associate to each keyword an information extract
 ## Table loader
 JSON file read as dataframe throug pandas library. Dataframe are then loaded to Postgres through sqlalchemy python library
 
-## API 
+# API 
+Will be developed in Django
+1. 
 Exports data to frontend Flask/Django REST framework (whatever is simpler).
 
 # Frontend Components
