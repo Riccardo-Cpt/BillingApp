@@ -64,6 +64,14 @@ This table contains information about energy supplier, contract type, reference 
 | DT_INGESTION| Date | Format: YYYY-MM-DD |
 
 ## Output layer
+### View1: V_CURRENT_CUSTOMERS_COSTS
+| Column Name | Data Type | Constraints |
+|-------------|-----------|-------------|
+| CD_SUPPLIER|String||
+| CD_ADDRESS | String | NOT NULL|
+| CD_POD | String | NOT NULL|
+| CD_OFFER | String | |
+| CD_ANNUAL_EXP | String | |
 
 # User Accounts
 ## Postgres
