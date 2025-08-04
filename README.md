@@ -68,8 +68,8 @@ This table contains information about energy supplier, contract type, reference 
 | Column Name | Data Type | Constraints |
 |-------------|-----------|-------------|
 | CD_SUPPLIER|String||
-| CD_ADDRESS | String | NOT NULL|
-| CD_POD | String | NOT NULL|
+| CD_ADDRESS | String ||
+| CD_POD | String | |
 | CD_OFFER | String | |
 | CD_ANNUAL_EXP | String | |
 
