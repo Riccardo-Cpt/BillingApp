@@ -70,7 +70,7 @@ This table contains information about energy supplier, contract type, reference 
 | CD_SUPPLIER|String||
 | CD_ADDRESS | String ||
 | CD_POD | String | |
-| CD_OFFER | String | |
+| FL_OFFER | Float | |
 | CD_ANNUAL_EXP | String | |
 
 # User Accounts
