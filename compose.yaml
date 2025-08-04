@@ -1,10 +1,9 @@
 services:
-    
-  #python app
-  python-app:
+  #ETL
+  etl:
     image: ghcr.io/riccardo-cpt/dpage/test-app #this image is contained in Github container registry
     build:
-      context: ./python-app
+      context: ./python-etl
       dockerfile: Dockerfile
       #Build variables
       args:
@@ -27,7 +26,7 @@ services:
     command: ["python", "main.py"]
   
   #DB postgres
-  postgres-db:
+  db:
     image: postgres:17.5-alpine3.22
     restart: always
     volumes:
