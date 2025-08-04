@@ -45,6 +45,32 @@ services:
       interval: 10s
       timeout: 10s
       retries: 5
+      
+  #Backend
+  python-api:
+    image: ghcr.io/riccardo-cpt/dpage/test-app #this image is contained in Github container registry
+    build:
+      context: ./python-api
+      dockerfile: Dockerfile
+      #Build variables
+      args:
+        PYTHON_VERSION: ${PYTHON_VERSION}
+        UID: ${UID}
+    env_file:
+        .env
+    #container variables
+    environment:
+        - PYTHONDONTWRITEBYTECODE=${PYTHONDONTWRITEBYTECODE}
+        - PYTHONUNBUFFERED=${PYTHONUNBUFFERED}
+        - PG_HOST=${PG_HOST}
+        - PG_NAME=${PG_DATABASE}
+        - PG_USER=${PG_USER_BACKEND}
+        - PG_PASSWORD=${PG_PASSWORD_BACKEND}
+    user: ${UID}
+    depends_on:
+        bill-db:
+            condition: service_healthy
+    command: ["python", "main.py"]
 
   #pgadmin
   pgadmin:

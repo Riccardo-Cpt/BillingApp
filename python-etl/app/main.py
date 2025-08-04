@@ -18,7 +18,7 @@ if __name__ == "__main__":
     
     
     #ask the user to insert something in the database
-    user_input = input("Please write what you want to insert: ")
+    user_input = "ciao"
     
     
     conn = DBUtils.db_connection(host=host, database=database, user=user, password=password)
