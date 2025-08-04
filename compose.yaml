@@ -21,17 +21,17 @@ services:
         - PG_PASSWORD=${PG_PASSWORD_BACKEND}
     user: ${UID}
     depends_on:
-        postgres-db:
+        bill-db:
             condition: service_healthy
     command: ["python", "main.py"]
   
   #DB postgres
-  db:
+  bill-db:
     image: postgres:17.5-alpine3.22
     restart: always
     volumes:
         - db-data:/var/lib/postgresql/data
-        - ./postgres-db/init.sql:/docker-entrypoint-initdb.d/init.sql #define initialization script to create user localhost
+        - ./bill-db/init.sql:/docker-entrypoint-initdb.d/init.sql #define initialization script to create user localhost
     env_file: .env
     environment:
       POSTGRES_DB: ${PG_DATABASE}

@@ -6,15 +6,16 @@ BEGIN
     END IF;
 END $$;
 
--- Connect to the 'bills' database to create the schema and user permissions
---\c bills
+-- Create the schema if it does not exist
+CREATE SCHEMA IF NOT EXISTS in_electric_bills;
+CREATE SCHEMA IF NOT EXISTS out_electric_bills;
 
 DO $$
 BEGIN
 	IF NOT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'in_electric_bills' AND table_name = 'supply_data') THEN
 	
 		CREATE TABLE in_electric_bills.SUPPLY_DATA (
-			CD_SUPPLIER VARCHAR(100),
+			CD_SUPPLIER VARCHAR(100) NOT NULL,
 			CD_ADDRESS VARCHAR(255) NOT NULL,
 			CD_POD VARCHAR(20) NOT NULL,
 			CD_SUBSCRIBED_POWER VARCHAR(20),
@@ -25,7 +26,7 @@ BEGIN
 			DT_START_ECONOMIC_COND DATE,
 			DT_END_ECONOMIC_COND DATE,
 			DT_START_SUPPLY DATE,
-			CD_ANNUAL_EXP VARCHAR(50),
+			CD_ANNUAL_EXP VARCHAR(50) NOT NULL,
 			DT_START_ANNUAL_EXP DATE,
 			DT_END_ANNUAL_EXP DATE,
 			DT_INGESTION DATE
@@ -101,8 +102,28 @@ BEGIN
 			'2025-08-01'
 		);
 		
+		
+		--create view for out schema
+		CREATE VIEW out_electric_bills.V_CURRENT_CUSTOMERS_COSTS AS
+		SELECT CD_SUPPLIER
+			, CD_ADDRESS
+			, CD_POD
+			, CD_OFFER
+			, CD_ANNUAL_EXP
+		FROM (
+			SELECT 
+				CD_SUPPLIER
+				, CD_ADDRESS
+				, CD_POD
+				, CD_OFFER
+				, CD_ANNUAL_EXP
+				, ROW_NUMBER() OVER(PARTITION BY CD_SUPPLIER, CD_POD, CD_OFFER ORDER BY DT_END_ANNUAL_EXP DESC) RN
+			FROM IN_ELECTRIC_BILLS.SUPPLY_DATA
+		)
+		WHERE RN = 1;
+		
 	END IF;
-END $$
+END $$;
 
 
 -- Create the users if it does not exist
@@ -117,10 +138,6 @@ BEGIN
     END IF;
 END $$;
 
--- Create the schema if it does not exist
-CREATE SCHEMA IF NOT EXISTS in_electric_bills;
-CREATE SCHEMA IF NOT EXISTS out_electric_bills;
-
 -- Grant all privileges on the database and schema to the user dev_backend
 GRANT ALL PRIVILEGES ON DATABASE bills TO dev_backend;
 GRANT ALL PRIVILEGES ON SCHEMA in_electric_bills TO dev_backend;
@@ -132,5 +149,3 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA out_electric_bills TO dev_backend;
 GRANT CONNECT ON DATABASE bills TO dev_frontend;
 GRANT USAGE ON SCHEMA out_electric_bills TO dev_frontend;
 GRANT SELECT ON ALL TABLES IN SCHEMA out_electric_bills TO dev_frontend;
-
--- Create table SUPPLY_DATA
