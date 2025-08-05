@@ -23,7 +23,7 @@ services:
 
   #ETL
   python-etl:
-    image: ghcr.io/riccardo-cpt/dpage/python-etl #this image is contained in Github container registry
+    #image: ghcr.io/riccardo-cpt/dpage/python-etl #this image is contained in Github container registry
     build:
       context: ./python-etl
       dockerfile: Dockerfile
@@ -49,7 +49,7 @@ services:
       
   #Backend
   python-api:
-    image: ghcr.io/riccardo-cpt/dpage/python-api #this image is contained in Github container registry
+    #image: ghcr.io/riccardo-cpt/dpage/python-api #this image is contained in Github container registry
     build:
       context: ./python-api
       dockerfile: Dockerfile
@@ -59,6 +59,11 @@ services:
         UID: ${UID}
     env_file:
         .env
+    
+    # INTERACTIVE MODE FOR DEBUG PURPOSES
+    stdin_open: true # Docker runs the container with an open stdin
+    tty: true # Allocates a pseudo-TTY
+
     #container variables
     environment:
         - PYTHONDONTWRITEBYTECODE=${PYTHONDONTWRITEBYTECODE}
@@ -73,7 +78,8 @@ services:
             condition: service_healthy
     ports:
       - "8000:8000"
-    command: ["python", "main.py"]
+    command: sh # Override the default command to start an interactive shell
+    #command: ["python", "main.py"]
 
   #pgadmin
   pgadmin:

@@ -25,3 +25,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 USER appuser
+
+#to run in interactive mode. TO BE DEACTIVATED ONCE DEVELOPMENT FINISHES 
+CMD ["tail", "-f", "/dev/null"]

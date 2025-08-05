@@ -11,6 +11,13 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+#get environment variables to allow connection to postgres database
+host = os.getenv("PG_HOST", "host does not exist")
+database = os.getenv("PG_NAME", "database does not exist")
+user = os.getenv("PG_USER_BACKEND", "user does not exist")
+password = os.getenv("PG_PASSWORD_BACKEND", "password does not exist")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +32,7 @@ SECRET_KEY = 'django-insecure-496+r$(hhc%mb6pb1e1g%^4te70u)wr6#x)-ptq4x2ih$mw+w@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [host, '127.0.0.1','2.196.125.133'] #remember to remove my IP
 
 
 # Application definition
@@ -70,12 +77,14 @@ WSGI_APPLICATION = 'billing_track.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': database,
+        'USER': user,
+        'PASSWORD': password,
+        'HOST': host,
+        'PORT': '5432'
     }
 }
 
