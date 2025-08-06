@@ -7,6 +7,6 @@ class ANAGRAPHIC_VIEW(models.Model):
   FL_OFFER = models.CharField(max_length=255)
   FL_ANNUAL_EXP = models.FloatField(max_length=255)
 
-   class Meta:
-        db_table = "V_CURRENT_CUSTOMERS_COSTS"
-        managed = False  # Instructs Django to ignore this during database migrations
+  class Meta:
+    db_table = "V_CURRENT_CUSTOMERS_COSTS"
+    managed = False  # Instructs Django to ignore this during database migrations
