@@ -42,7 +42,7 @@ Exports data to frontend Flask/Django REST framework (whatever is simpler).
 TBD
 
 # Postgres Tables
-## Input layer
+## Input layer: schema in_electric_bills
 ### Table1: SUPPLY_DATA
 This table contains information about energy supplier, contract type, reference period and other anagraphical information
 | Column Name | Data Type | Constraints |
@@ -63,7 +63,7 @@ This table contains information about energy supplier, contract type, reference 
 | DT_END_ANNUAL_EXP | Date | Format: YYYY-MM-DD |
 | DT_INGESTION| Date | Format: YYYY-MM-DD |
 
-## Output layer
+## Output layer: schema out_electric_bills
 ### View1: V_CURRENT_CUSTOMERS_COSTS
 | Column Name | Data Type | Constraints |
 |-------------|-----------|-------------|
