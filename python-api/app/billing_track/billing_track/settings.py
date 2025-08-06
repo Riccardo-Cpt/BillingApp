@@ -84,10 +84,13 @@ DATABASES = {
         'USER': user,
         'PASSWORD': password,
         'HOST': host,
-        'PORT': '5432'
+        'PORT': '5432',
+        
+        'OPTIONS': {
+            'options': '-c search_path=out_electric_bills'
+        },
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators

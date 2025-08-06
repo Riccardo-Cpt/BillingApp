@@ -13,7 +13,7 @@ CREATE SCHEMA IF NOT EXISTS out_electric_bills;
 DO $$
 BEGIN
 	IF NOT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'in_electric_bills' AND table_name = 'supply_data') THEN
-	
+		
 		CREATE TABLE in_electric_bills.SUPPLY_DATA (
 			CD_SUPPLIER VARCHAR(100) NOT NULL,
 			CD_ADDRESS VARCHAR(255) NOT NULL,
@@ -66,6 +66,40 @@ BEGIN
 			'2024-09-17',
 			'2024-09-17',
 			'2025-08-01'
+		);
+		
+		INSERT INTO in_electric_bills.SUPPLY_DATA (
+			CD_SUPPLIER,
+			CD_ADDRESS,
+			CD_POD,
+			CD_SUBSCRIBED_POWER,
+			CD_AVAILABLE_POWER,
+			CD_OFFER,
+			CD_OFFER_CODE,
+			DT_CONTRACT_EXPIRE,
+			DT_START_ECONOMIC_COND,
+			DT_END_ECONOMIC_COND,
+			DT_START_SUPPLY,
+			CD_ANNUAL_EXP,
+			DT_START_ANNUAL_EXP,
+			DT_END_ANNUAL_EXP,
+			DT_INGESTION
+		) VALUES (
+			'prev_supplier',
+			'VIA PALUSTRI 22',
+			'IT00118R4564',
+			'6.00kW',
+			'6.60kW',
+			'STG Domestici Non Vulnerabili',
+			'000155ENVFT00DXSERV_TUT_GRADUALI',
+			'2099-10-01',
+			'2023-07-01',
+			'9999-12-31',
+			'2023-07-01',
+			'434,89 €',
+			'2023-09-17',
+			'2023-09-17',
+			'2023-03-01'
 		);
 		
 		INSERT INTO in_electric_bills.SUPPLY_DATA (
