@@ -78,8 +78,6 @@ services:
             condition: service_healthy
     ports:
       - "8000:8000"
-    command: sh # Override the default command to start an interactive shell
-    #command: ["python", "main.py"]
 
   #pgadmin
   pgadmin:

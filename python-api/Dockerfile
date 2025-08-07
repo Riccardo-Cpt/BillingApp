@@ -26,5 +26,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 USER appuser
 
-#to run in interactive mode. TO BE DEACTIVATED ONCE DEVELOPMENT FINISHES 
-CMD ["tail", "-f", "/dev/null"]
+
+#MIGRATE COMMAND CAN BE REMOVED ONCE EVERYTHING IS SET UP
+CMD ["cd", "/app/billing_track/"] 
+CMD ["sh", "-c", "python manage.py migrate", "&&", "python manage.py runserver 0.0.0.0:8000"] #migrate and run server
