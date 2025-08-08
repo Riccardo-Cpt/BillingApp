@@ -1,12 +1,15 @@
 from django.db import models
 
 class ANAGRAPHIC_VIEW(models.Model):
-  CD_SUPPLIER = models.CharField(max_length=255)
-  CD_ADDRESS = models.CharField(max_length=255)
-  CD_POD = models.CharField(max_length=255)
-  FL_OFFER = models.CharField(max_length=255)
-  FL_ANNUAL_EXP = models.FloatField(max_length=255)
+  cd_supplier = models.CharField(max_length=255,  primary_key=True)
+  cd_address = models.CharField(max_length=255)
+  cd_pod = models.CharField(max_length=255)
+  cd_offer = models.CharField(max_length=255)
+  fl_annual_exp = models.FloatField()
 
   class Meta:
-    db_table = "V_CURRENT_CUSTOMERS_COSTS"
+    db_table = "v_current_customers_costs"
     managed = False  # Instructs Django to ignore this during database migrations
+
+  def __str__(self):
+    return self.cd_supplier

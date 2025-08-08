@@ -24,10 +24,15 @@ RUN chown appuser:appuser /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Set ownership and permissions for the /app directory
+# RESTRICT PERMISSIONS ONCE IN PRODUCTION
+RUN chown -R appuser:appuser /app && \
+    chmod -R 755 /app
+
 USER appuser
 
-
-#MIGRATE COMMAND CAN BE REMOVED ONCE EVERYTHING IS SET UP
 WORKDIR '/app/billing_track/'
 
-#CMD ["python manage.py migrate", "&&", "python manage.py runserver 0.0.0.0:8000"] #migrate and run server
+#CMD ["python manage.py makemigrations billing_track"]
+#CMD ["python manage.py migrate"]
+#CMD ["python manage.py runserver 0.0.0.0:8000"] #migrate and run server

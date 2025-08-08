@@ -12,5 +12,5 @@ def anagraphic_list(request):
     """
     if request.method == 'GET':
         anagraphic = ANAGRAPHIC_VIEW.objects.all()
-        serializer = AnagraphigViewSerializer
+        serializer = AnagraphigViewSerializer(anagraphic, many=True)
         return Response(serializer.data)
