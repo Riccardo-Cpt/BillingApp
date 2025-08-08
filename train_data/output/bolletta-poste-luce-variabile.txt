@@ -1,0 +1,608 @@
+##########NEW PAGE###########
+FAC-SIMILE
+1 di 8
+Ed. Luglio 2025
+Poste Energia è un servizio erogato da PostePay S.p.A., società con socio unico, soggetta a direzione e coordinamento di Poste Italiane S.p.A.
+5402
+ALLEGATO 5
+SCHEDA SINTETICA PLACET
+POSTE ENERGIA – PLACET VARIABILE – ENERGIA ELETTRICA – CLIENTI DOMESTICI
+Poste Energia Placet variabile luce domestico – Codice Offerta 036327ESVMP03XX250716REPENGXXXXX
+Offerta energia elettrica valida dal 16/07/2025 al 09/10/2025
+VENDITORE
+PostePay S.p.A.
+Sede legale Viale Europa, 190 – 00144 Roma
+Sito web: www.poste.it
+Assistenza clienti: 06.4526.1199 da rete fissa e mobile secondo i costi del tuo operatore 
+telefonico;  800.001.199 gratuito da rete fissa.
+Per richieste di informazioni scritte: assistenza.energia@postepay.it
+Per reclami scritti: reclami.energia@postepay.it
+DURATA DEL CONTRATTO
+Indeterminata.
+CONDIZIONI DELL’OFFERTA
+L’Offerta è riservata ai clienti titolari di punti di fornitura a uso domestico in Bassa Tensione. 
+METODI E CANALI DI PAGAMENTO
+Il Cliente potrà pagare le bollette ricevute da PostePay con le seguenti modalità: i) addebito 
+diretto su conto corrente bancario/ postale (Sepa Direct Debit, SDD); ii) bollettino postale. Il 
+pagamento tramite Bollettino postale, effettuato presso gli sportelli degli Uffici Postali, non 
+prevede alcun costo.
+FREQUENZA DI FATTURAZIONE
+La periodicità di fatturazione sarà bimestrale. 
+GARANZIE RICHIESTE AL CLIENTE
+È previsto l’addebito del deposito cauzionale qualora si scelga un metodo di pagamento diverso 
+da domiciliazione ricorrente (SDD bancario o postale). L’importo del deposito è pari a:
+-	 per il cliente domestico titolare di Bonus Sociale, il deposito cauzionale addebitato nella prima
+bolletta utile ammonta a 5,2 euro per ogni kW di potenza contrattualmente impegnata;
+-	 per tutti gli altri clienti domestici il deposito cauzionale è pari a 11,5 euro per ogni kW di
+potenza contrattualmente impegnata.
+Per i clienti che non sono titolari di bonus sociale il deposito cauzionale è raddoppiato, qualora 
+si verifichi una delle seguenti condizioni:
+a)	 Postepay abbia costituito in mora il Cliente finale, con riferimento ad almeno due fatture,
+anche non consecutive, nei 365 giorni precedenti la data di emissione di una nuova fattura;
+b)	 il Cliente finale non abbia pagato il deposito cauzionale e PostePay abbia costituito in mora
+il Cliente finale, con riferimento ad almeno una bolletta nei 365 giorni precedenti la data di
+emissione di una nuova fattura.
+Nel caso in cui il Cliente finale non versi il deposito cauzionale eventualmente richiesto, 
+PostePay può chiedere al Distributore di procedere alla sospensione della fornitura ai sensi 
+delle disposizioni relative all’inadempimento del cliente. 
+Il deposito cauzionale è addebitato nella prima bolletta utile ed è versato dal Cliente in un’unica 
+soluzione. Qualora nel corso dell’erogazione della fornitura il deposito cauzionale fosse 
+imputato da PostePay, in tutto o in parte, a copertura di eventuali insoluti, il Cliente è tenuto a 
+ricostituirlo con addebito nella prima bolletta utile. Il deposito cauzionale è restituito al Cliente alla 
+cessazione della fornitura contestualmente alla bolletta di chiusura, maggiorato in base al tasso 
+di interesse legale. Ai fini della restituzione, al Cliente non può essere richiesto di presentare 
+alcun documento attestante l’avvenuto versamento dello stesso. Il Cliente finale sarà tenuto 
+alla prestazione della garanzia qualora in corso di vigenza del Contratto scelga di utilizzare una 
+modalità di pagamento delle bollette diversa da quelle sopra elencate o nel caso di sopravvenuta 
+impossibilità di domiciliazione bancaria, postale o su carta di credito.
+##########NEW PAGE###########
+FAC-SIMILE
+2 di 8
+Ed. Luglio 2025
+SPESA ANNUA STIMATA IN EURO/ANNO (ESCLUSE IMPOSTE E TASSE)
+CONSUMO ANNUO (kWh)
+SPESA ANNUA STIMATA DELL’OFFERTA (€/anno)
+Cliente con potenza impegnata 3 kW – Contratto per abitazione di residenza
+1500
+594,46
+2200
+758,07
+2700
+874,94
+3200
+991,80
+Cliente con potenza impegnata 3 kW – Contratto per abitazione di non residenza
+900
+544,87
+4000
+1269,43
+Cliente con potenza impegnata 4,5 kW – Contratto per abitazione di residenza
+3500
+1099,84
+Cliente con potenza impegnata 6 kW – contratto per abitazione di residenza
+6000
+1722,08
+Per informazioni sulla spesa personalizzata e su altre offerte disponibili nel mercato può consultare il Portale Offerte Luce e Gas www.ilportaleofferte.it.
+CONDIZIONI ECONOMICHE
+PREZZO MATERIA PRIMA ENERGIA
+Prezzo variabile.
+COSTO PER CONSUMI
+INDICE
+P_INGM: è il valore consuntivo medio aritmetico mensile del PUN (Prezzo Unico Nazionale), 
+espresso in Euro/kWh, così come determinato dal Gestore dei Mercati Energetici (GME), 
+eventualmente differenziato per fasce F1 e F23, e pubblicato sul sito internet dell’ARERA.
+PERIODICITÀ INDICE
+Mensile.
+GRAFICO INDICE €/kWh (12 MESI)
+TOTALE
+PVOL= PUN*(1 + λ)+ 0,0663 €/kWh
+COSTO FISSO ANNUO
+COSTO PER POTENZA IMPEGNATA
+145,23 €/anno/punto di fornitura*
+0,0000 €/kW*
+ALTRE VOCI DI COSTO
+(valori aggiornati periodicamente da
+ARERA, autorità del settore
+energetico)
+Oltre ai corrispettivi per la “Spesa per la materia energia” sopra riportati, saranno applicati questi 
+corrispettivi:
+-	 spesa per il trasporto dell’energia elettrica e per la gestione del contatore, che comprende 
+gli importi che consentono ai venditori di consegnare l’energia consumata ai clienti finali;
+-	 spesa per gli oneri di sistema, che comprende i corrispettivi destinati alla copertura di 
+costi riguardanti le attività di interesse generale per il sistema elettrico, tra cui la componente 
+tariffaria ASOS, finalizzata a finanziare il sistema di incentivi riconosciuti per la produzione di 
+energia elettrica da fonti rinnovabili e da cogenerazione.
+Questi corrispettivi sono definiti e aggiornati periodicamente dall’Autorità di Regolazione per 
+Energia Reti e Ambiente (ARERA). Puoi consultarli nell’allegato 1 - Altre voci di costo Luce.
+IMPOSTE
+Oltre ai corrispettivi sopra definiti, il cliente sarà tenuto a corrispondere le imposte e le cui 
+aliquote sono consultabili sul sito www.poste.it.
+Per maggiori informazioni fare riferimento alle CGF allegate.
+SCONTI E/O BONUS
+Qualora il Cliente scelga l’addebito automatico diretto in conto corrente SEPA (Sepa Core Direct 
+Debit) come modalità di pagamento e la bolletta digitale come modalità di ricezione della bolletta, 
+Postepay riconoscerà al Cliente uno sconto in bolletta pari a 6 €/anno.
+PRODOTTI E SERVIZI AGGIUNTIVI
+Nessuno.
+0,1284
+0,1171
+0,1123
+0,1309
+0,1167
+0,118
+luglio-24
+agosto-24
+settembre-24
+ottobre-24
+novembre-24
+dicembre-24
+gennaio-25
+febbraio-25
+marzo-25
+aprile-25
+maggio-25
+giugno-25
+0,1351
+0,1430
+0,1504
+0,1205
+0,0999
+0,0936
+##########NEW PAGE###########
+FAC-SIMILE
+3 di 8
+Ed. Luglio 2025
+DURATA CONDIZIONI E RINNOVO
+Le Condizioni economiche si applicano a decorrere dalla data di Attivazione della fornitura e 
+hanno durata di 12 (dodici) mesi dall’attivazione della fornitura. Trascorsi i 12 mesi, PostePay 
+procede al rinnovo della stessa tipologia di offerta fissa o variabile mediante invio al Cliente 
+di una comunicazione in forma scritta, su supporto durevole preventivamente accettato dal 
+Cliente finale, recante il prezzo che sarà applicato al termine dei 12 mesi, con un preavviso non 
+inferiore a 3 (tre) mesi rispetto alla decorrenza delle nuove condizioni economiche. Il rinnovo 
+delle condizioni economiche non comporta alcuna variazione della tipologia di offerta oggetto 
+del presente Contratto. Il prezzo proposto per il rinnovo della presente Offerta è pari al prezzo 
+previsto dall’offerta PLACET commercializzata da PostePay nel momento in cui viene effettuata 
+la comunicazione. Resta salva la facoltà del Cliente di esercitare il recesso dal Contratto con le 
+modalità e nei termini indicati nella predetta comunicazione. In assenza di recesso da parte del 
+Cliente le nuove condizioni economiche si considerano accettate. La comunicazione di rinnovo 
+avrà contenuto vincolato e non potrà essere trasmessa all’interno dei documenti di fatturazione 
+o all’interno di comunicazioni di altra natura e, in ogni caso, congiuntamente agli stessi, salvo 
+il caso in cui il rinnovo si configuri come una riduzione dei corrispettivi originariamente previsti 
+in Contratto. Qualora PostePay non effettui tempestivamente la comunicazione di rinnovo, si 
+applica, per i 12 mesi successivi, il prezzo minore tra quello previsto dalle Condizioni economiche 
+in scadenza e quello previsto dall’offerta PLACET applicabile al Cliente e commercializzata da 
+PostePay alla data di scadenza delle precedenti Condizioni economiche.
+ALTRE CARATTERISTICHE
+Nessuna.
+*  Escluse imposte e tasse
+ALTRE INFORMAZIONI
+RECLAMI, RISOLUZIONE DELLE 
+CONTROVERSIE E DIRITTI DEL 
+CONSUMATORE
+Il cliente potrà usufruire dei seguenti canali di comunicazione per l’invio in forma scritta di 
+eventuali reclami:
+•	 E-mail: reclami.energia@postepay.it;
+•	 Form on line accessibile da poste.it e da area riservata;
+•	 Casella Postale: Casella Postale 160, CAP 00144 Roma.
+Il Cliente ha la possibilità di risolvere eventuali controversie legate al Contratto, attivando una 
+procedura extragiudiziale di risoluzione delle controversie prima di ricorrere ad eventuali azioni 
+giudiziarie. Il Cliente potrà attivare detta procedura soltanto dopo aver presentato reclamo a 
+PostePay e nel caso in cui PostePay non abbia fornito una risposta soddisfacente o siano 
+decorsi 40 (quaranta) giorni dall’invio del reclamo senza che PostePay abbia fornito risposta. 
+Il Cliente potrà attivare le seguenti procedure extragiudiziali di risoluzione delle controversie 
+(Alternative Dispute Resolution): 
+•	 la procedura di conciliazione presso il Servizio Conciliazione dell’Autorità gestito 
+dall’Acquirente Unico (www.sportelloperilconsumatore.it/). Il Servizio è gratuito e rivolto a 
+tutti i Clienti finali di energia elettrica alimentati in bassa e/o media tensione, ai Clienti finali 
+di gas alimentati in bassa pressione, ai Prosumer o Utenti finali e agli Operatori o Gestori. 
+L’attivazione del Servizio Conciliazione avviene online, mediante la compilazione online di 
+un’apposita richiesta. Per maggiori informazioni è possibile contattare anche lo Sportello per 
+il Consumatore di energia al numero 800.166.654.
+•	 la procedura di conciliazione paritetica gestita dall’Organismo di Conciliazione paritetica 
+“Poste Italiane S.p.A. – Associazione dei Consumatori”, iscritto nell’apposito elenco degli 
+organismi di Alternative Dispute Resolution riportato sul sito di ARERA. Le modalità di 
+accesso alla procedura di negoziazione paritetica, i termini e le modalità di funzionamento 
+della stessa sono consultabili alla pagina dedicata del sito di Poste Italiane. Il cliente finale 
+può avere accesso alla procedura di conciliazione senza alcun onere e senza alcun obbligo 
+di assistenza legale. Per attivare la procedura è necessario che il cliente non abbia fatto 
+ricorso, per la medesima controversia, né ad altro organismo di risoluzione stragiudiziale 
+previsto dalla normativa vigente, né all’autorità giudiziaria. La domanda di conciliazione può 
+essere presentata dall’intestatario della fornitura o da un suo delegato, munito di apposita 
+delega scritta.
+Se Lei è un cliente vulnerabile, come definito dalla normativa vigente, può scegliere, in alternativa 
+all’offerta di cui alla presente Scheda, le condizioni economiche e contrattali di fornitura definite 
+dall’Autorità di Regolazione per Energia Reti e Ambiente. Per ottenere ulteriori informazioni 
+generali sui propri diritti, anche relativi agli obblighi di servizio pubblico universale dei venditori, 
+e in merito al Codice di condotta commerciale, che impone precise regole di comportamento per 
+i venditori, consulti il sito dell’Autorità di Regolazione per Energia Reti e Ambiente www.arera.it/ 
+consumatori o chiami il numero verde 800.166.654.
+##########NEW PAGE###########
+FAC-SIMILE
+4 di 8
+Ed. Luglio 2025
+DIRITTO DI RIPENSAMENTO
+Nel caso di sottoscrizione del Contratto a distanza (ad esempio sul Sito www.poste.it), il 
+Cliente domestico entro 14 (quattordici) giorni solari dalla conclusione del Contratto (di seguito 
+“periodo di ripensamento”) può recedere dal Contratto senza oneri e senza dover fornire alcuna 
+motivazione, esercitando il cd. “diritto di ripensamento” previsto dal Decreto Legislativo 206/05 
+(“Codice del Consumo”) e dal Codice di Condotta Commerciale dell’ARERA. A tal fine, il Cliente 
+dovrà comunicare in modo esplicito nel termine sopra indicato la sua decisione di recedere 
+dal Contratto, utilizzando una delle seguenti modalità ed eventualmente l’apposito modulo 
+disponibile sul Sito www.poste.it e allegato al presente Contratto (Allegato 3):
+•	 chiamando i numeri: 06.4526.1199 da rete fissa e mobile secondo i costi del tuo operatore 
+telefonico; 800.001.199 gratuito da rete fissa;
+•	 inviando apposita e-mail all’indirizzo assistenza.energia@postepay.it;
+•	 inviando comunicazione scritta alla Casella Postale 160, CAP 00144 Roma;
+•	 tramite area riservata dell’APP Poste Italiane e del Sito Poste, laddove il servizio risulti 
+disponibile.
+Fatto salvo quanto previsto in caso di richiesta di attivazione anticipata, PostePay avvierà le 
+procedure per l’attivazione della fornitura soltanto una volta trascorso il periodo di ripensamento 
+senza che il Cliente abbia esercitato il diritto di ripensamento.
+In sede di sottoscrizione del Contratto, il Cliente ha la facoltà di presentare, su supporto durevole 
+che sarà messo a disposizione di PostePay, una richiesta espressa di anticipare le procedure 
+per l’attivazione della fornitura prima che sia decorso il periodo di ripensamento (di seguito, 
+“esecuzione anticipata”).  La richiesta di esecuzione anticipata del contratto non comporta per il 
+Cliente la perdita del diritto di ripensamento, ad eccezione della casistica in cui, successivamente 
+alla richiesta di esecuzione anticipata della fornitura, la stessa sia stata avviata o, in caso di 
+nuovo contratto, vengano applicate le condizioni del nuovo contratto. In tal caso, il Cliente dovrà 
+riconoscere che non potrà più esercitare il ripensamento. 
+In caso di switch, la richiesta di esecuzione anticipata non comporterà l’avvio della fornitura nel 
+periodo di ripensamento, ma potrà comportare un anticipo dell’attivazione della fornitura con 
+PostePay rispetto alle normali tempistiche previste dalla regolazione vigente.
+A seconda del momento in cui il diritto di ripensamento sia esercitato, la fornitura: i) nel caso in 
+cui non fosse avviata da PostePay, il contratto sarà annullato e non si darà seguito alla richiesta 
+di fornitura. In caso di switching, la fornitura del Cliente potrà essere garantita dal precedente 
+fornitore qualora il relativo contratto non risulti essere sciolto, o dai soggetti che erogano il servizio 
+di maggior tutela/tutela graduale nel caso di fornitura elettrica, o il servizio di fornitura di ultima 
+istanza o di default nel caso di fornitura gas naturale, per il tempo necessario a permettere un 
+nuovo cambio fornitore o la chiusura del punto, sulla base della volontà manifestata dal Cliente. 
+Il Cliente sarà tenuto a corrispondere a PostePay eventuali oneri addebitati dal Distributore per 
+le prestazioni effettuate; ii) qualora, al momento dell’esercizio del diritto di ripensamento fosse 
+già avviata o non ne possa più essere impedito l’avvio, sarà eseguita da PostePay per il tempo 
+necessario a permettere un nuovo cambio fornitore o la chiusura del punto, sulla base della 
+volontà manifestata dal Cliente. Il Cliente sarà tenuto a corrispondere a PostePay i corrispettivi 
+previsti dal Contratto, fino al momento della cessazione della fornitura. L’onere della prova 
+relativa all’esercizio del diritto di ripensamento conformemente al presente articolo incombe sul 
+Cliente.
+ATTIVAZIONE DELLA FORNITURA
+L’attivazione della fornitura, tranne nei casi in cui essa avvenga a seguito di voltura, ha luogo 
+alla prima data utile. La data di inizio della/e somministrazione/i sarà indicata da PostePay nella 
+comunicazione di accettazione della Proposta e sarà riportata nelle fatture. 
+In caso di voltura il Contratto avrà esecuzione nelle tempistiche stabilite rispettivamente dalle 
+Delibere ARERA 135/2021/R/eel per l’energia elettrica e 102/2016/R/com per il gas naturale, 
+salvo quanto previsto in materia di ripensamento per i contratti a distanza.
+Nel caso in cui il Cliente non si avvalga della richiesta di esecuzione anticipata del contratto, le 
+pratiche per avviare le procedure di cambio venditore decorreranno trascorsi i 14 giorni previsti 
+per il diritto di ripensamento.
+In caso di cambio fornitore, la richiesta di esecuzione anticipata del Contratto prima che sia 
+decorso il termine per il ripensamento non comporterà l’avvio della fornitura nel periodo previsto 
+per il ripensamento, ma potrà comunque comportare un anticipo della fornitura con PostePay 
+rispetto alle normali tempistiche previste dalla normativa.
+Inoltre, l’attivazione della fornitura è subordinata alle verifiche sull’affidabilità creditizia e sullo 
+stato di eventuali morosità del Cliente.
+Per maggiori dettagli fare riferimento all’art. 3 ed all’art. 5 del contratto.
+L’attivazione della fornitura è sempre vincolata all’attivazione dei servizi di trasporto, di 
+distribuzione e, per le sole forniture di energia elettrica, di dispacciamento per i quali il cliente 
+fornirà mandato a PostePay per la stipula dei contratti di distribuzione con il distributore 
+competente e dispacciamento (con Terna S.p.A.) dell’energia elettrica. 
+Per l’esecuzione di prestazione di servizi relativi alle sole forniture di energia elettrica, il 
+Cliente fornisce a PostePay mandato per operare per suo conto nei confronti del Distributore, 
+impegnandosi ad assolvere a ogni eventuale obbligazione che contrarremo a nostro nome; in 
+particolare per le singole prestazioni dovrà pagare gli importi di competenza del Distributore ed 
+i contributi in quota fissa secondo quanto stabilito dall’ARERA.
+DATI DI LETTURA
+PostePay, in accordo con le disposizioni ARERA, utilizzerà i consumi rilevati per la fatturazione 
+secondo quest’ordine: i) dati rilevati e comunicati dal Distributore; ii) autoletture comunicate dal 
+Cliente e validate dal Distributore; iii) dati di misura stimati.
+PostePay eseguirà le proprie stime di consumo sulla base dei dati di consumo del Cliente a 
+propria disposizione e delle principali caratteristiche della fornitura del cliente, in ogni caso 
+attraverso criteri che minimizzino gli scostamenti con il consumo effettivo del cliente.
+##########NEW PAGE###########
+FAC-SIMILE
+5 di 8
+Ed. Luglio 2025
+RITARDO NEI PAGAMENTI
+Il Cliente è tenuto a pagare ciascuna bolletta entro la scadenza riportata nella bolletta stessa. Il 
+termine di pagamento della bolletta non sarà inferiore a 20 (venti) giorni dalla data di emissione 
+della fattura. In nessun caso il pagamento può essere differito o ridotto. In nessun caso il 
+pagamento può essere differito o ridotto. In caso di omesso, parziale o ritardato pagamento, 
+dal giorno successivo alla scadenza di pagamento verranno addebitati al Cliente gli interessi di 
+mora computati in misura pari al tasso ufficiale di riferimento vigente nel periodo (Tasso BCE) in 
+cui si verifica l’inadempimento, maggiorato di 3,5 punti percentuali.
+Il Cliente che ha pagato nei termini di scadenza le bollette relative all’ultimo biennio ovvero, 
+qualora la fornitura risulti inferiore al biennio, le bollette relative al periodo di efficacia del 
+Contratto è tenuto al pagamento del solo interesse legale per i primi 10 (dieci) giorni di ritardo.
+In caso di mancato pagamento totale o parziale di una bolletta di energia elettrica e/o gas 
+naturale, PostePay potrà inviare al Cliente una comunicazione scritta di costituzione in mora a 
+mezzo raccomandata con avviso di ricevimento o posta elettronica certificata (PEC) trascorso 
+un periodo non inferiore a 10 (dieci) giorni solari dal termine ultimo del pagamento della fattura.
+La comunicazione di costituzione in mora indicherà: i) il termine ultimo entro cui il Cliente deve 
+pagare le bollette non pagate; ii) il termine decorso il quale qualora il Cliente continui ad essere 
+in mora PostePay richiederà al Distributore la sospensione della fornitura.
+In ogni caso di sospensione/chiusura ed eventuale riattivazione della fornitura di energia elettrica 
+e/o gas naturale per morosità, PostePay avrà il diritto di addebitare al cliente i costi addebitati 
+dal Distributore per ciascuna operazione di sospensione e/o riattivazione della fornitura, come 
+definiti dalla normativa ARERA o dal Distributore.
+PostePay si riserva di affidare l’attività di recupero crediti a soggetti terzi specializzati e di 
+addebitare al Cliente i relativi costi.
+Saranno posti ad esclusivo carico del Cliente, che si impegna a pagarli, gli oneri e i costi, 
+nessuno escluso, relativi alle attività di recupero del credito in sede giudiziale e stragiudiziale 
+rese necessarie dallo stato di morosità, totale o parziale, del Cliente stesso.
+La disciplina relativa alla morosità nel settore dell’energia elettrica è regolata dalla Delibera 
+258/2015/R/com (TIMOE) dell’Autorità di Regolazione per Energia Reti e Ambiente.
+MODALITÀ E ONERI PER IL RECESSO
+MODALITÀ E TEMPISTICHE
+Il Cliente ha in ogni momento la possibilità di recedere senza oneri dal contratto con PostePay. 
+Fatto salvo il diritto di ripensamento, il Cliente ha in ogni momento la possibilità di recedere senza 
+oneri dal presente Contratto,  nel rispetto dei seguenti termini di preavviso: (i) entro e non oltre 
+il giorno 10 (dieci) del mese precedente la data di cambio fornitore nel caso in cui il recesso sia 
+esercitato al fine di cambiare fornitore; (ii) nel caso in cui il Cliente intenda recedere senza il fine 
+di cambiare fornitore ma ai fini della cessazione della fornitura, o per altre motivazioni, il termine 
+di preavviso per l’esercizio del diritto di recesso è pari a 1 (un) mese decorrente dalla data di 
+ricevimento della richiesta di recesso da parte di PostePay.
+Nel caso di cambio fornitore, il recesso, in nome e per conto del Cliente, è esercitato mediante 
+l’invio della richiesta di switching al SII da parte del fornitore con il quale il Cliente ha sottoscritto il 
+Contratto, cui quest’ultimo avrà conferito apposita procura a recedere.
+Qualora, invece, il Cliente eserciti il diritto di recesso al fine di cessare la fornitura con PostePay, 
+dovrà contattare i numeri: 06.4526.1199 da rete fissa e mobile secondo i costi del tuo operatore 
+telefonico; 800.001.199 gratuito da rete fissa.
+ONERE DI RECESSO ANTICIPATO
+Nessuno.
+OPERATORE COMMERCIALE
+CODICE IDENTIFICATIVO O NOMINATIVO
+FIRMA E DATA
+DOCUMENTI ALLEGATI ALLA SCHEDA SINTETICA
+•	 Allegato 1 – Altre voci di costo Luce
+•	 LIVELLI DI QUALITÀ COMMERCIALE
+•	 MODULO PER IL RIPENSAMENTO
+Note: 
+•	 In caso di proposta contrattuale del cliente domestico o cliente non domestico, se il venditore non invia l’accettazione della proposta entro 45 giorni 
+solari dalla sottoscrizione da parte del cliente, la proposta si considera decaduta.
+• Ti invitiamo a verificare la presenza di eventuali oneri di recesso anticipato dal tuo contratto di fornitura attualmente in essere.
+##########NEW PAGE###########
+FAC-SIMILE
+6 di 8
+Ed. Luglio 2025
+Allegato 1 - Altre voci di costo Luce
+Abitazioni residenza anagrafica
+3° trimestre 2025
+Trasporto e gestione del contatore
+Oneri di sistema
+Di cui Asos
+Quota energia (euro/kWh)
+0,01352
+0,031322
+0,029677
+Quota ﬁssa (euro/anno)
+22,8
+- 
+- 
+Quota potenza (euro/kW/anno)
+25,2788
+- 
+- 
+Abitazioni diverse dalla residenza anagrafica
+3° trimestre 2025
+Trasporto e gestione del contatore
+Oneri di sistema
+Di cui Asos
+Quota energia (euro/kWh)
+0,01352
+0,031322
+0,029677
+Quota ﬁssa (euro/anno)
+22,8
+90,642
+90,642
+Quota potenza (euro/kW/anno)
+25,2788
+- 
+- 
+LIVELLI DI QUALITÀ COMMERCIALE
+STANDARD SPECIFICI E GENERALI DI QUALITÀ COMMERCIALE DELLA VENDITA 2024
+PostePay è tenuta a rispettare questi standard ai sensi dell’Allegato A dalla Delibera 413/2016/R/com, con riferimento ai reclami scritti, alle richieste 
+di rettifica di fatturazione e di doppia fatturazione ricevuta dai propri clienti.
+Tempo massimo di risposta ai reclami scritti
+30 giorni solari
+Tempo massimo di rettifica di Fatturazione
+60 giorni solari o
+90 giorni solari per le bollette con periodicità quadrimestrale
+Tempo massimo di rettifica di doppia fatturazione
+20 giorni solari
+Percentuale minima di risposte a richieste scritte di informazioni inviate 
+entro il tempo massimo di 30 giorni solari
+95%
+STANDARD SPECIFICI E GENERALI DI QUALITÀ COMMERCIALE DELLA VENDITA CONSEGUITI DA POSTEPAY 2024
+Livelli effettivi di qualità commerciale soddisfatti da PostePay nell’anno precedente (Art. 9.1, All. A, del. 366/2018).
+Grado di rispetto
+Tempo massimo di risposta ai reclami scritti
+99,4%
+Tempo massimo di rettifica di fatturazione
+91,1%
+Tempo massimo di rettifica di doppia fatturazione 
+100,0%
+Percentuale minima di risposte a richieste scritte di informazioni inviate 
+entro il tempo massimo di 30 giorni solari 
+99,6%
+INDENNIZZI AUTOMATICI DI QUALITÀ COMMERCIALE DELLA VENDITA 2024
+PostePay è tenuta a corrispondere al Cliente questi indennizzi automatici ai sensi dell’All. A alla delibera 413/2016/R/com con riferimento alla 
+gestione delle richieste di rettifica di fatturazione e di doppia fatturazione ricevute.
+Risposte motivate a reclami scritti 
+Rettifica di fatturazione
+Rettifica di doppia fatturazione
+Risposta oltre lo standard ma entro il doppio 
+dello standard
+25,00 Euro
+Risposta oltre il doppio dello standard ma entro 
+il triplo dello standard
+50,00 Euro
+Risposta oltre il triplo dello standard
+75,00 Euro
+##########NEW PAGE###########
+FAC-SIMILE
+7 di 8
+Ed. Luglio 2025
+SCHEDA DI CONFRONTABILITÀ
+L’Offerta Poste Energia Placet variabile luce domestico è valida dal 16/07/2025 al 09/10/2025
+Le condizioni economiche e contrattuali del servizio di maggior tutela, la cui stima di spesa annua è riportata nella presente scheda, sono disponibili solo 
+per i clienti vulnerabili, come definiti dalla normativa vigente. Per ottenere ulteriori informazioni consulti il sito dell’Autorità di Regolazione per Energia 
+Reti e Ambiente www.arera.it/consumatori o chiami il numero verde 800.166.654.
+SPESA ANNUA STIMATA IN €/ANNO (ESCLUSE IMPOSTE E TASSE)
+Cliente con potenza impegnata 3kW - contratto per abitazione di residenza
+Consumo Annuo (kWh)
+A) Offerta
+Sezione (B) Servizio di 
+Maggior Tutela
+(C) Minore Spesa (segno-) 
+o maggiore spesa
+(segno +) A-B
+(D)Variazione percentuale 
+della spesa (con segno + 
+o segno -) (A-B)/B * 100
+1.500
+594,46
+441,11
++153,35
++34,77%
+2.200
+758,07
+580,05
++178,02
++30,69%
+2.700
+874,94
+679,30
++195,64
++28,80%
+3.200
+991,80
+778,55
++213,25
++27,39%
+Cliente con potenza impegnata 3kW - contratto per abitazione non di residenza
+Consumo Annuo (kWh)
+A) Offerta
+Sezione (B) Servizio di 
+Maggior Tutela
+(C) Minore Spesa (segno-) 
+o maggiore spesa
+(segno +) A-B
+(D)Variazione percentuale 
+della spesa (con segno + 
+o segno -) (A-B)/B * 100
+900
+544,87
+412,65
++132,22
++32,04%
+4.000
+1269,43
+1027,98
++241,45
++23,49%
+Cliente con potenza impegnata 4,5kW - contratto per abitazione di residenza
+Consumo Annuo (kWh)
+A) Offerta
+Sezione (B) Servizio di 
+Maggior Tutela
+(C) Minore Spesa (segno-) 
+o maggiore spesa
+(segno +) A-B
+(D)Variazione percentuale 
+della spesa (con segno + 
+o segno -) (A-B)/B * 100
+3.500
+1099,84
+876,01
++223,83
++25,55%
+Cliente con potenza impegnata 6kW - contratto per abitazione di residenza
+Consumo Annuo (kWh)
+A) Offerta
+Sezione (B) Servizio di 
+Maggior Tutela
+(C) Minore Spesa (segno-) 
+o maggiore spesa
+(segno +) A-B
+(D)Variazione percentuale 
+della spesa (con segno + 
+o segno -) (A-B)/B * 100
+6.000
+1722,08
+1410,17
++311,91
++22,12%
+I valori indicati in tabella, calcolati alla data dell’offerta, possono subire variazioni, nel periodo di validità dell’offerta, a seguito di provvedimenti dell’Autorità 
+di Regolazione per Energia Reti e Ambiente. Tali valori sono stati determinati considerando la seguente ripartizione percentuale dei consumi nelle diverse 
+fasce orarie: F1 33%, F2 31% e F3 36%.
+Per una stima della spesa annua personalizzata sulla base del Suo consumo effettivo può utilizzare il “Portale delle Offerte Luce e Gas”.
+FASCE ORARIE
+Fascia 1
+Dalle 8 alle 19 dei giorni feriali
+Fasce 2 e 3
+Dalle 19 alle 8 dei giorni feriali e tutte le ore del sabato, della domenica e dei giorni Festivi
+ALTRI ONERI/ SERVIZI ACCESSORI
+Descrizione dell’onere/servizio
+Corrispettivo previsto
+-
+-
+Opzionale
+MODALITÀ DI INDICIZZAZIONE/VARIAZIONI 
+La componente del prezzo PVOL (comprensiva delle perdite), applicata ai consumi ed espressa in Euro/kWh, è variabile con periodicità mensile 
+secondo la seguente formula: PVOL = (1+ λ)*(P_INGM+α) dove λ: è il fattore di correzione per tenere conto delle perdite di rete di cui al Testo 
+integrato (TIS); P_INGM: calcolato, con riferimento ai quattro trimestri solari a partire dal trimestre in corso alla data di offerta del prodotto, come 
+media aritmetica delle quotazioni forward del PUN calcolati dal GSE espresso in Euro/kWh; α: espresso in Euro/kWh, è un parametro fisso e 
+invariabile per 12 mesi. Le altre componenti che concorrono a definire la spesa finale complessiva, quali quelle relative a trasporto gestione del 
+contatore e oneri di sistema, sono soggette ad eventuali indicizzazioni/variazioni definite dall’Autorità di Regolazione per Energia, Reti e Ambiente.
+##########NEW PAGE###########
+FAC-SIMILE
+8 di 8
+Ed. Luglio 2025
+FUEL MIX
+FUEL MIX
+Comunicazione ai sensi dell’art. 8 del Decreto 224 del 14/07/2023 del Ministero dell’Ambiente e della Sicurezza Energetica Composizione del mix di 
+fonti energetiche primarie utilizzate per la produzione dell’energia elettrica fornita nell’anno precedente
+Fonti primarie utilizzate
+Composizione del mix 
+energetico del contratto (%)
+Composizione del mix 
+energetico nazionale 
+utilizzato per la produzione 
+di energia elettrica immessa 
+nel sistema elettrico (%)
+Composizione del mix 
+energetico utilizzato per 
+la produzione di energia 
+elettrica venduta da 
+PostePay (%)
+Anno 2024
+Anno 2024
+Anno 2024
+Fonti rinnovabili
+100%
+51,83%
+100%
+Carbone
+0%
+1,52%
+0%
+Lignite
+0%
+0%
+0%
+Gas naturale
+0%
+42,01%
+0%
+Prodotti Petroliferi
+0%
+0,47%
+0%
+Nucleare
+0%
+0%
+0%
+Altre fonti
+0%
+4,17%
+0%

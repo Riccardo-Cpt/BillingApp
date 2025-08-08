@@ -28,5 +28,6 @@ USER appuser
 
 
 #MIGRATE COMMAND CAN BE REMOVED ONCE EVERYTHING IS SET UP
-CMD ["cd", "/app/billing_track/"] 
-CMD ["sh", "-c", "python manage.py migrate", "&&", "python manage.py runserver 0.0.0.0:8000"] #migrate and run server
+WORKDIR '/app/billing_track/'
+
+#CMD ["python manage.py migrate", "&&", "python manage.py runserver 0.0.0.0:8000"] #migrate and run server
