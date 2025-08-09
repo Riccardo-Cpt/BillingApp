@@ -45,13 +45,13 @@ TBD
 ## Input layer: schema in_electric_bills
 ### Table1: SUPPLY_DATA
 This table contains information about energy supplier, contract type, reference period and other anagraphical information
-| Column Name | Data Type | Constraints |
-|-------------|-----------|-------------|
-| CD_SUPPLIER|String||
-| CD_ADDRESS | String | NOT NULL|
-| CD_POD | String | NOT NULL|
-| CD_SUBSCRIBED_POWER | String | |
-| CD_AVAILABLE_POWER | String | |
+| Column Name | Data Type | Constraints |Constraints |
+|-------------|-----------|-------------|-------------|
+| CD_SUPPLIER|String||Supplier name|
+| CD_ADDRESS | String | NOT NULL|Customer's Address|
+| CD_POD | String | NOT NULL|Unique identifier of electricity meter|
+| CD_SUBSCRIBED_POWER | String |Kw subscribed in the offer|
+| CD_AVAILABLE_POWER | String |Max Kw allowed by electricity meter|
 | CD_OFFER | String | |
 | CD_OFFER_CODE | String | |
 | DT_CONTRACT_EXPIRE | Date | Format: YYYY-MM-DD |
