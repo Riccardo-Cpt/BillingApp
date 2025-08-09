@@ -45,33 +45,28 @@ TBD
 ## Input layer: schema in_electric_bills
 ### Table1: SUPPLY_DATA
 This table contains information about energy supplier, contract type, reference period and other anagraphical information
-| Column Name | Data Type | Constraints |Constraints |
+| Column Name | Data Type | Constraints |Description |
 |-------------|-----------|-------------|-------------|
-| CD_SUPPLIER|String||Supplier name|
+| PK_BILL_PERIOD|String|NOT NULL|Billing period|
+| PK_SUPPLIER|String||Supplier name|
 | CD_ADDRESS | String | NOT NULL|Customer's Address|
 | CD_POD | String | NOT NULL|Unique identifier of electricity meter|
 | CD_SUBSCRIBED_POWER | String |Kw subscribed in the offer|
 | CD_AVAILABLE_POWER | String |Max Kw allowed by electricity meter|
-| CD_OFFER | String | |
-| CD_OFFER_CODE | String | |
-| DT_CONTRACT_EXPIRE | Date | Format: YYYY-MM-DD |
-| DT_START_ECONOMIC_COND | Date | Format: YYYY-MM-DD |
-| DT_END_ECONOMIC_COND | Date | Format: YYYY-MM-DD |
-| DT_START_SUPPLY | Date | Format: YYYY-MM-DD |
-| CD_ANNUAL_EXP | String | |
-| DT_START_ANNUAL_EXP | Date | Format: YYYY-MM-DD |
-| DT_END_ANNUAL_EXP | Date | Format: YYYY-MM-DD |
+| CD_OFFER | String |Name of subscribed offer|
+| DT_CONTRACT_START | Date | Format: YYYY-MM-DD |Contract start date|
+| DT_CONTRACT_EXPIRE | Date | Format: YYYY-MM-DD |Contract expire date|
 | DT_INGESTION| Date | Format: YYYY-MM-DD |
 
 ## Output layer: schema out_electric_bills
 ### View1: V_CURRENT_CUSTOMERS_COSTS
 | Column Name | Data Type | Constraints |
 |-------------|-----------|-------------|
-| CD_SUPPLIER|String||
+| PK_BILL_PERIOD|String||
+| PK_SUPPLIER|String||
 | CD_ADDRESS | String ||
 | CD_POD | String | |
 | CD_OFFER | String | |
-| FL_ANNUAL_EXP | Float | |
 
 # User Accounts
 ## Postgres
