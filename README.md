@@ -120,7 +120,7 @@ This table contains information about what the supplier has defined as consumed 
 | PK_BILL_PERIOD|String||
 | PK_SUPPLIER|String||
 | CD_ADDRESS | String ||
-| CD_POD | String | |
+| PK_POD | String | |
 | CD_OFFER | String | |
 
 # User Accounts
