@@ -15,143 +15,112 @@ BEGIN
 	IF NOT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'in_electric_bills' AND table_name = 'supply_data') THEN
 		
 		CREATE TABLE in_electric_bills.SUPPLY_DATA (
-			CD_SUPPLIER VARCHAR(100) NOT NULL,
-			CD_ADDRESS VARCHAR(255) NOT NULL,
-			CD_POD VARCHAR(20) NOT NULL,
-			CD_SUBSCRIBED_POWER VARCHAR(20),
-			CD_AVAILABLE_POWER VARCHAR(20),
-			CD_OFFER VARCHAR(255),
-			CD_OFFER_CODE VARCHAR(50),
-			DT_CONTRACT_EXPIRE DATE,
-			DT_START_ECONOMIC_COND DATE,
-			DT_END_ECONOMIC_COND DATE,
-			DT_START_SUPPLY DATE,
-			CD_ANNUAL_EXP VARCHAR(50) NOT NULL,
-			DT_START_ANNUAL_EXP DATE,
-			DT_END_ANNUAL_EXP DATE,
-			DT_INGESTION DATE
-		);
+					PK_BILL_PERIOD        VARCHAR(50) NOT NULL,  -- Billing period
+					PK_SUPPLIER           VARCHAR(255) NOT NULL, -- Supplier name
+					CD_ADDRESS            VARCHAR(500) NOT NULL, -- Customer's address
+					PK_POD                VARCHAR(50) NOT NULL,  -- Unique identifier of electricity meter
+					CD_SUBSCRIBED_POWER   VARCHAR(50),           -- Kw subscribed in the offer
+					CD_AVAILABLE_POWER    VARCHAR(50),           -- Max Kw allowed by electricity meter
+					CD_OFFER              VARCHAR(255),          -- Name of subscribed offer
+					DT_CONTRACT_START     DATE,                  -- Contract start date (YYYY-MM-DD)
+					DT_CONTRACT_EXPIRE    DATE,                  -- Contract expire date (YYYY-MM-DD)
+					TS_INGESTION          TIMESTAMP,             -- Timestamp of ingestion (YYYY-MM-DD hh:mm:ss)
+					CONSTRAINT tablex_pk PRIMARY KEY (PK_BILL_PERIOD, PK_SUPPLIER, PK_POD)
+				);
 		
 		
 		--DUMMY INSERTS, TO BE REMOVED
 		INSERT INTO in_electric_bills.SUPPLY_DATA (
-			CD_SUPPLIER,
+			PK_BILL_PERIOD,
+			PK_SUPPLIER,
 			CD_ADDRESS,
-			CD_POD,
+			PK_POD,
 			CD_SUBSCRIBED_POWER,
 			CD_AVAILABLE_POWER,
 			CD_OFFER,
-			CD_OFFER_CODE,
+			DT_CONTRACT_START,
 			DT_CONTRACT_EXPIRE,
-			DT_START_ECONOMIC_COND,
-			DT_END_ECONOMIC_COND,
-			DT_START_SUPPLY,
-			CD_ANNUAL_EXP,
-			DT_START_ANNUAL_EXP,
-			DT_END_ANNUAL_EXP,
-			DT_INGESTION
+			TS_INGESTION
 		) VALUES (
+			'01/01/2025 - 28/02/2025',
 			'Illumia',
 			'VIA PALUSTRI 22',
 			'IT00118R4564',
 			'6.00kW',
 			'6.60kW',
 			'STG Domestici Non Vulnerabili',
-			'000155ENVFT00DXSERV_TUT_GRADUALI',
+			'2024-01-01',
 			'2099-10-01',
-			'2024-07-01',
-			'9999-12-31',
-			'2024-07-01',
-			'34,89 €',
-			'2024-09-17',
-			'2024-09-17',
-			'2025-08-01'
+			'2025-08-01 00:00:00'
 		);
-		
+
+				
 		INSERT INTO in_electric_bills.SUPPLY_DATA (
-			CD_SUPPLIER,
+			PK_BILL_PERIOD,
+			PK_SUPPLIER,
 			CD_ADDRESS,
-			CD_POD,
+			PK_POD,
 			CD_SUBSCRIBED_POWER,
 			CD_AVAILABLE_POWER,
 			CD_OFFER,
-			CD_OFFER_CODE,
+			DT_CONTRACT_START,
 			DT_CONTRACT_EXPIRE,
-			DT_START_ECONOMIC_COND,
-			DT_END_ECONOMIC_COND,
-			DT_START_SUPPLY,
-			CD_ANNUAL_EXP,
-			DT_START_ANNUAL_EXP,
-			DT_END_ANNUAL_EXP,
-			DT_INGESTION
+			TS_INGESTION
 		) VALUES (
-			'prev_supplier',
-			'VIA PALUSTRI 22',
-			'IT00118R4564',
-			'6.00kW',
-			'6.60kW',
-			'STG Domestici Non Vulnerabili',
-			'000155ENVFT00DXSERV_TUT_GRADUALI',
-			'2099-10-01',
-			'2023-07-01',
-			'9999-12-31',
-			'2023-07-01',
-			'434,89 €',
-			'2023-09-17',
-			'2023-09-17',
-			'2023-03-01'
-		);
-		
-		INSERT INTO in_electric_bills.SUPPLY_DATA (
-			CD_SUPPLIER,
-			CD_ADDRESS,
-			CD_POD,
-			CD_SUBSCRIBED_POWER,
-			CD_AVAILABLE_POWER,
-			CD_OFFER,
-			CD_OFFER_CODE,
-			DT_CONTRACT_EXPIRE,
-			DT_START_ECONOMIC_COND,
-			DT_END_ECONOMIC_COND,
-			DT_START_SUPPLY,
-			CD_ANNUAL_EXP,
-			DT_START_ANNUAL_EXP,
-			DT_END_ANNUAL_EXP,
-			DT_INGESTION
-		) VALUES (
+			'01/03/2025 - 31/04/2025',
 			'Illumia',
 			'VIA PALUSTRI 22',
 			'IT00118R4564',
 			'6.00kW',
 			'6.60kW',
 			'STG Domestici Non Vulnerabili',
-			'000155ENVFT00DXSERV_TUT_GRADUALI',
+			'2024-01-01',
 			'2099-10-01',
-			'2024-07-01',
-			'9999-12-31',
-			'2024-07-01',
-			'190,89 €',
-			'2024-09-17',
-			'2024-11-24',
-			'2025-08-01'
+			'2025-08-01 00:00:00'
+		);
+
+		
+		INSERT INTO in_electric_bills.SUPPLY_DATA (
+			PK_BILL_PERIOD,
+			PK_SUPPLIER,
+			CD_ADDRESS,
+			PK_POD,
+			CD_SUBSCRIBED_POWER,
+			CD_AVAILABLE_POWER,
+			CD_OFFER,
+			DT_CONTRACT_START,
+			DT_CONTRACT_EXPIRE,
+			TS_INGESTION
+		) VALUES (
+			'01/05/2025 - 31/06/2025',
+			'New_forn',
+			'VIA PALUSTRI 22',
+			'IT00118R4564',
+			'6.00kW',
+			'6.60kW',
+			'STG Domestici Non Vulnerabili',
+			'2024-06-01',
+			'2099-10-01',
+			'2025-08-01 00:00:00'
 		);
 		
 		
 		--create view for out schema
 		CREATE OR REPLACE VIEW out_electric_bills.V_CURRENT_CUSTOMERS_COSTS AS
-		SELECT CD_SUPPLIER
+		SELECT 		
+		    PK_BILL_PERIOD
+			, PK_SUPPLIER
 			, CD_ADDRESS
-			, CD_POD
+			, PK_POD
 			, CD_OFFER
-			, FL_ANNUAL_EXP
 		FROM (
 			SELECT 
-				CD_SUPPLIER
+				PK_BILL_PERIOD
+				, PK_SUPPLIER
 				, CD_ADDRESS
-				, CD_POD
+				, PK_POD
 				, CD_OFFER
-				, CAST(REPLACE(SPLIT_PART(CD_ANNUAL_EXP, ' ', 1), ',', '.') AS FLOAT) AS FL_ANNUAL_EXP
-				, ROW_NUMBER() OVER(PARTITION BY CD_SUPPLIER, CD_POD, CD_OFFER ORDER BY DT_END_ANNUAL_EXP DESC) RN
+				, ROW_NUMBER() OVER(PARTITION BY PK_SUPPLIER, PK_POD, CD_OFFER ORDER BY PK_BILL_PERIOD DESC) RN
 			FROM IN_ELECTRIC_BILLS.SUPPLY_DATA
 		)
 		WHERE RN = 1;

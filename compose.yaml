@@ -70,8 +70,8 @@ services:
         - PYTHONUNBUFFERED=${PYTHONUNBUFFERED}
         - PG_HOST=${PG_HOST}
         - PG_NAME=${PG_DATABASE}
-        - PG_USER=${PG_USER_BACKEND}
-        - PG_PASSWORD=${PG_PASSWORD_BACKEND}
+        - PG_USER=${PG_USER_FRONTEND}
+        - PG_PASSWORD=${PG_PASSWORD_FRONTEND}
     user: ${UID}
     depends_on:
         bill-db:

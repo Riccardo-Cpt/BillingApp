@@ -28,11 +28,11 @@ if __name__ == "__main__":
         print("--Connecting to database--")
                 
         # Execute query
-        DBUtils.db_execute_query(conn, create_table)    
+        #DBUtils.db_execute_query(conn, create_table)    
 
         # Use parameterized query to avoid SQL injection
-        insert_query = "INSERT INTO electric_bills.user_input (input_text) VALUES (%s);"
-        DBUtils.db_execute_query(conn, insert_query, (user_input,))
+        #insert_query = "INSERT INTO electric_bills.user_input (input_text) VALUES (%s);"
+        #DBUtils.db_execute_query(conn, insert_query, (user_input,))
 
         print("--All done, closing connection--")
         # Close the connection
