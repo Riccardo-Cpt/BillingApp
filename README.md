@@ -115,13 +115,14 @@ This table contains information about what the supplier has defined as consumed 
 
 ## Output layer: schema out_electric_bills
 ### View1: V_CURRENT_CUSTOMERS_COSTS
-| Column Name | Data Type | Constraints |
-|-------------|-----------|-------------|
-| PK_BILL_PERIOD|String||
-| PK_SUPPLIER|String||
-| CD_ADDRESS | String ||
-| PK_POD | String | |
-| CD_OFFER | String | |
+| Column Name | Data Type | Constraints | Description |
+|-------------|-----------|-------------|-------------|
+| PK_BILL_PERIOD|String|||
+| PK_SUPPLIER|String|||
+| CD_ADDRESS | String |||
+| PK_POD | String |||
+| CD_OFFER | String |||
+| FL_MEDIUM_PRICE_ELE|Float||Energy costs + Charges + Tax costs in €/kWh|
 
 # User Accounts
 ## Postgres
