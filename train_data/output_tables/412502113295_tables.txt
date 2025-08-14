@@ -1,0 +1,630 @@
+{
+  "header": [
+    "DATI FORNITURA",
+    null
+  ],
+  "rows": [
+    [
+      "",
+      null
+    ],
+    [
+      "POD",
+      "IT003837293562"
+    ],
+    [
+      "Codice Contratto 3501221456\nPotenza impegnata 6,00 kW\nPotenza disponibile 6,60 kW\nIndirizzo di fornitura VIA GIONGIOLANNI 23 - 21040 -\nGOLLANA (SO)\nFrequenza di fatturazione Bimestrale",
+      null
+    ]
+  ]
+}
+
+{
+  "header": [
+    "SCONTRINO DELL'ENERGIA ELETTRICA",
+    null
+  ],
+  "rows": [
+    [
+      "Quantità Prezzo medio Importi",
+      null
+    ],
+    [
+      "QUOTA PER CONSUMI\n29,00 kWh x 0,163103 €/kWh 4,73 €\ndi cui spesa per vendita energia elettrica 0,117931 €/kWh 3,42 €\ndi cui spesa per la rete e gli oneri generali di sistema 0,045172 €/kWh 1,31 €",
+      null
+    ],
+    [
+      "QUOTA FISSA E QUOTA POTENZA\n3,400000 €/Mese 6,80 €\ndi cui spesa per vendita energia elettrica - 6,050000 €/Mese -12,10 €\ndi cui spesa per la rete e gli oneri generali di sistema 9,450000 €/Mese 18,90 €\n6,00 Kw per 2 Mesi x 2,106667 €/kW/Mese 25,28 €\ndi cui spesa per la rete e gli oneri generali di sistema 2,106667 €/kW/Mese 25,28 €",
+      null
+    ],
+    [
+      "Accise e Iva 4,40 €",
+      null
+    ],
+    [
+      "",
+      null
+    ],
+    [
+      "Totale bolletta",
+      "41,21 €"
+    ],
+    [
+      "Totale da pagare",
+      "41,21 €"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "BOX DELL'OFFERTA\nSpesa per la vendita di energia elettrica",
+    null
+  ],
+  "rows": [
+    [
+      "",
+      null
+    ],
+    [
+      "OFFERTA COMMERCIALE",
+      "STG Domestici Non Vulnerabili"
+    ],
+    [
+      "Codice offerta 000155ENVFT00DXSERV_TUT_GRADUALI\nTipologia offerta Offerta Prezzo Variabile\nTipologia di prezzo Offerta Trioraria\nOneri di recesso anticipato Nessun onere di recesso anticipato",
+      null
+    ],
+    [
+      "TOTALE SPESA PER IL PERIODO FATTURATO",
+      "-8,68 €"
+    ],
+    [
+      "di cui spesa per la quota per consumi 3,42 €\ndi cui spesa per la quota fissa -12,10 €",
+      null
+    ],
+    [
+      "DATA INIZIO CONDIZIONI ECONOMICHE",
+      "01/07/2024"
+    ],
+    [
+      "Data scadenza condizioni economiche A tempo indeterminato\nData scadenza contratto A tempo indeterminato",
+      null
+    ],
+    [
+      "FORMULA PREVISTA PER LA QUOTA CONSUMI",
+      "Corrispettivo CELD + Corrispettivo CDISPD + Corrispettivo CPSTGD\n+ Corrispettivo CSED"
+    ],
+    [
+      "Indice di riferimento PUN Index GME\nPeriodicità aggiornamento indice Mensile\nValori assunti dall'indice nel periodo di riferimento Corrispettivo CELD (F1) Mag 2025: F1: 0,098000 €/kWh\n(al lordo delle perdite di rete)\nCorrispettivo CELD (F1) Giu 2025: F1: 0,124371 €/kWh\nCorrispettivo CELD (F2) Mag 2025: F2: 0,121700 €/kWh",
+      null
+    ]
+  ]
+}
+
+{
+  "header": [
+    "CONSUMI\nPeriodo Tipo F1 F2 F3 Consumi Fatturati 29,00\nGiugno 2025 Effettivo 12 4 8 di cui Effettivi 29,00\nMaggio 2025 Effettivo 2 2 1",
+    null
+  ],
+  "rows": [
+    [
+      null,
+      "di cui Effettivi 29,00"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Tipo",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "RIEPILOGO IMPOSTE\nPeriodo Descrizione Prezzo Quantità Totale euro IVA\n01/05/2025 - 31/05/2025 Imposta Erariale 0,02270000 €/kWh 5,00 kWh 0,11 € 10 %\n01/06/2025 - 30/06/2025 Imposta Erariale 0,02270000 €/kWh 24,00 kWh 0,54 € 10 %"
+  ],
+  "rows": [
+    [
+      "Totale Imposte 0,65 €"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Descrizione",
+    "Prezzo",
+    "Quantità",
+    "Totale euro",
+    "IVA"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "ONERI GENERALI DI SISTEMA\nComponente ASOS\nPeriodo Prezzo Quantità Totale euro IVA\n01/05/2025 - 31/05/2025 0,02967700 euro/kWh 5,00 0,15 € 10 %\n01/05/2025 - 31/05/2025 7,55350000 euro/cliente/mese 1,00 7,55 € 10 %\n01/06/2025 - 30/06/2025 0,02967700 euro/kWh 24,00 0,71 € 10 %\n01/06/2025 - 30/06/2025 7,55350000 euro/cliente/mese 1,00 7,55 € 10 %\nComponente ARIM\nPeriodo Prezzo Quantità Totale euro IVA\n01/05/2025 - 31/05/2025 0,00164500 euro/kWh 5,00 0,01 € 10 %\n01/06/2025 - 30/06/2025 0,00164500 euro/kWh 24,00 0,04 € 10 %"
+  ],
+  "rows": [
+    [
+      "Totale Oneri generali di sistema 16,01 €"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Periodo",
+    "Prezzo",
+    "Quantità",
+    "Totale euro"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "Periodo",
+    "Prezzo",
+    "Quantità",
+    "Totale euro"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "Periodo",
+    "Consumi (kWh)"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "3"
+  ],
+  "rows": [
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "44"
+    ],
+    [
+      "70"
+    ],
+    [
+      "70"
+    ],
+    [
+      "86"
+    ],
+    [
+      "54"
+    ],
+    [
+      "9"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "12"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "1"
+  ],
+  "rows": [
+    [
+      "2"
+    ],
+    [
+      "1"
+    ],
+    [
+      "14"
+    ],
+    [
+      "65"
+    ],
+    [
+      "97"
+    ],
+    [
+      "100"
+    ],
+    [
+      "77"
+    ],
+    [
+      "34"
+    ],
+    [
+      "7"
+    ],
+    [
+      "2"
+    ],
+    [
+      "4"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "2"
+  ],
+  "rows": [
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "33"
+    ],
+    [
+      "163"
+    ],
+    [
+      "193"
+    ],
+    [
+      "238"
+    ],
+    [
+      "106"
+    ],
+    [
+      "25"
+    ],
+    [
+      "3"
+    ],
+    [
+      "1"
+    ],
+    [
+      "8"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Periodo",
+    "Consumo medio giornaliero (kWh)"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "0,03"
+  ],
+  "rows": [
+    [
+      "0,06"
+    ],
+    [
+      "0,03"
+    ],
+    [
+      "0,45"
+    ],
+    [
+      "2,17"
+    ],
+    [
+      "3,13"
+    ],
+    [
+      "3,23"
+    ],
+    [
+      "2,75"
+    ],
+    [
+      "1,10"
+    ],
+    [
+      "0,23"
+    ],
+    [
+      "0,06"
+    ],
+    [
+      "0,13"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "0,06"
+  ],
+  "rows": [
+    [
+      "0,06"
+    ],
+    [
+      "0,10"
+    ],
+    [
+      "1,06"
+    ],
+    [
+      "5,43"
+    ],
+    [
+      "6,23"
+    ],
+    [
+      "7,68"
+    ],
+    [
+      "3,79"
+    ],
+    [
+      "0,81"
+    ],
+    [
+      "0,10"
+    ],
+    [
+      "0,03"
+    ],
+    [
+      "0,27"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "0,06"
+  ],
+  "rows": [
+    [
+      "0,10"
+    ],
+    [
+      "1,42"
+    ],
+    [
+      "2,33"
+    ],
+    [
+      "2,26"
+    ],
+    [
+      "2,77"
+    ],
+    [
+      "1,93"
+    ],
+    [
+      "0,29"
+    ],
+    [
+      "0,03"
+    ],
+    [
+      "0,06"
+    ],
+    [
+      "0,40"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "0"
+  ],
+  "rows": [
+    [
+      "0,1"
+    ],
+    [
+      "2,6"
+    ],
+    [
+      "3,1"
+    ],
+    [
+      "4,1"
+    ],
+    [
+      "2,6"
+    ],
+    [
+      "2,7"
+    ],
+    [
+      "2"
+    ],
+    [
+      "0,1"
+    ],
+    [
+      "1"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "0,4"
+  ],
+  "rows": [
+    [
+      "0"
+    ],
+    [
+      "1,3"
+    ],
+    [
+      "3,7"
+    ],
+    [
+      "3,2"
+    ],
+    [
+      "3,8"
+    ],
+    [
+      "2,8"
+    ],
+    [
+      "2,8"
+    ],
+    [
+      "2,8"
+    ],
+    [
+      "1,5"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "0"
+  ],
+  "rows": [
+    [
+      "0"
+    ],
+    [
+      "3"
+    ],
+    [
+      "3,9"
+    ],
+    [
+      "3,7"
+    ],
+    [
+      "3,1"
+    ],
+    [
+      "4,5"
+    ],
+    [
+      "2,8"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0,1"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Fonti primarie utilizzate",
+    "2023\n(dato pre-consuntivo)",
+    "2022\n(dato consuntivo)"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "Fonti primarie utilizzate",
+    "2023\n(dato pre-consuntivo)",
+    "2022\n(dato consuntivo)"
+  ],
+  "rows": []
+}
+
+{
+  "header": [
+    "Fonti rinnovabili",
+    "38,53%",
+    "42,53%"
+  ],
+  "rows": [
+    [
+      "Carbone",
+      "12,53%",
+      "10,39%"
+    ],
+    [
+      "Gas naturale",
+      "41,20%",
+      "40,10%"
+    ],
+    [
+      "Prodotti petroliferi",
+      "1,10%",
+      "1,14%"
+    ],
+    [
+      "Nucleare",
+      "1,98%",
+      "1,74%"
+    ],
+    [
+      "Altre fonti",
+      "4,66%",
+      "4,09%"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Fonti rinnovabili",
+    "46,31%",
+    "36,95%"
+  ],
+  "rows": [
+    [
+      "Carbone",
+      "5,27%",
+      "8,34%"
+    ],
+    [
+      "Gas naturale",
+      "42,99%",
+      "48,66%"
+    ],
+    [
+      "Prodotti petroliferi",
+      "0,90%",
+      "1,16%"
+    ],
+    [
+      "Nucleare",
+      "0,00%",
+      "0,00%"
+    ],
+    [
+      "Altre fonti",
+      "4,53%",
+      "4,89%"
+    ]
+  ]
+}

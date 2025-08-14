@@ -1,0 +1,268 @@
+DATI CLIENTE - Fornitura di Energia Elettrica nel Servizio a Tutele Graduali
+Domestici non Vulnerabili
+1501342066
+CODICE CLIENTE
+Codice contratto 3501221456
+Ragione Sociale GENNARO ALLESSANDRINI
+Codice fiscale GLNNMCN96C1U683C
+Indirizzo VIA PALUSTRI 22
+21040 SUMIRAGO (SO)
+Sito E-mail
+www.illumia.it tutelegraduali@illumia.it
+Servizio clienti
+800 606 060 DA FISSO (gratuito) – 051 600 8066 DA MOBILE
+dal lunedì al venerdì dalle 9 alle 18 GENNARO ALLESSANDRINI
+VIA PALUSTRI 22
+Fax Indirizzo
+0510404055 VIA DE' CARRACCI, 69/2 21040 SUMIRAGO VA
+40129 BOLOGNA
+Segnalazione guasti E-DISTRIBUZIONE SPA
+Attivo 24h su 24
+803 500
+FORNITURA DI ENERGIA ELETTRICA Periodo di riferimento: 01/03/2025 - 30/04/2025
+Frequenza di fatturazione: Bimestrale
+Fattura N. 412501470354 del 12/05/2025
+Situazione pagamenti precedenti: Regolare
+TOTALE DA PAGARE EURO 52,75
+SCADENZA: 03/06/2025
+Gentile Cliente, l’importo sarà pagato mediante DOMICILIAZIONE BANCARIA presso UNICREDIT BANCA SPA
+DATI FORNITURA CONSUMI
+VIA GIONGIOLANNI 23 Consumi fatturati 79
+Indirizzo
+21040 - GOLLANA (SO) Consumi effettivi 79
+POD IT003837293562
+Tipo Cliente Domestico Non residente
+Periodo Tipo F1 F2 F3
+Tensione di fornitura Bassa tensione
+Apr-2025 Effettivo 1 7 3
+Potenza impegnata 6,00 kW Mar-2025 Effettivo 9 34 25
+Potenza disponibile 6,60 kW
+Offerta STG Domestici Non Vulnerabili LETTURE
+Codice Offerta 000155ENVFT00DXSERV_TUT_GRADUALI
+Data Tipo F1 F2 F3
+Data scadenza contratto Contratto a tempo indeterminato
+30/04/2025 Effettiva 653 608 1.104
+Data inizio condizioni economiche 01/07/2024
+31/03/2025 Effettiva 652 601 1.101
+Data fine condizioni economiche 31/12/9999 28/02/2025 Effettiva 643 567 1.076
+Data inizio fornitura 01/07/2024
+Consumo da inizio fornitura 1.417 kWh
+(reale) (F1: 298 - F2: 384 - F3: 735)
+Spesa Annua Sostenuta 534,60 €
+Data inizio Spesa Annua 17/09/2024
+Data fine Spesa Annua 12/05/2025
+RIEPILOGO FATTURA
+IMPORTI FORNITURA
+Spesa per la materia energia € -1,63
+Spesa per il trasporto e la gestione del contatore € 30,15
+Spesa per gli oneri di sistema € 17,64
+Imposte € 1,79
+IVA € 4,80
+TOTALE € 52,75
+RIEPILOGO IVA
+ALIQUOTA IMPONIBILE IMPOSTA
+IVA Vendite 10% € 47,95 € 4,80
+Capitale Sociale: euro 3.000.000,00 i.v. • Codice fiscale e P. IVA: 02356770988 Illumia S.p.A.
+Iscritta presso C.C.I.A.A. di Bologna Registro Imprese 02356770988 Via dè Carracci, 69/2 - 40129, Bologna
+Società soggetta ad attività di direzione e coordinamento di Tremagi S.r.l. www.illumia.it
+C.F., P. IVA e N. Registro Imprese di Bologna: 02965701200
+Registro A.E.E. IT14040000008352 • Registro Nazionale Pile: IT17030P00004389
+Contributo Ambientale CONAI assolto 1/5
+
+RIEPILOGO IMPOSTE
+Periodo dal-al Descrizione UDM Prezzi unitari Quantità Totale euro IVA
+01/03/2025 - 31/03/2025 Imposta Erariale €/kWh 0,02270000 68,00 1,54 10
+01/04/2025 - 30/04/2025 Imposta Erariale €/kWh 0,02270000 11,00 0,25 10
+Totale imposte 1,79
+CONSUMO STORICO ENERGIA
+Periodo Consumi (kWh) Max Potenza Prelevata (kW) Consumo medio Fattore di potenza (Cosphi)
+giornaliero (kWh)
+F1 F2 F3 Totale F1 F2 F3 F1 F2 F3 F1 F2 F3
+Lug-2024 3 1 2 6 0,20 0,00 0,00 0,10 0,03 0,06 1,00 1,00 1,00
+Ago-2024 2 2 2 6 0,00 0,40 0,00 0,06 0,06 0,06 1,00 1,00 1,00
+Set-2024 3 1 3 7 0,10 0,00 0,00 0,10 0,03 0,10 1,00 1,00 1,00
+Ott-2024 44 14 33 91 2,60 1,30 3,00 1,42 0,45 1,06 1,00 1,00 1,00
+Nov-2024 70 65 163 298 3,10 3,70 3,90 2,33 2,17 5,43 1,00 1,00 1,00
+Dic-2024 70 97 193 360 4,10 3,20 3,70 2,26 3,13 6,23 1,00 1,00 1,00
+Gen-2025 86 100 238 424 2,60 3,80 3,10 2,77 3,23 7,68 1,00 1,00 1,00
+Feb-2025 54 77 106 237 2,70 2,80 4,50 1,93 2,75 3,79 1,00 1,00 1,00
+Mar-2025 9 34 25 68 2,00 2,80 2,80 0,29 1,10 0,81 1,00 1,00 1,00
+Apr-2025 1 7 3 11 0,10 2,80 1,00 0,03 0,23 0,10 1,00 1,00 1,00
+450
+400 F0
+350
+300 F1
+250
+200 F2
+150
+100 F3
+50
+kWh
+Lug Ago Set Ott Nov Dic Gen Feb Mar Apr
+24 24 24 24 24 24 25 25 25 25
+IMPORTO TOTALE FORNITURA
+Totale imponibile € 47,95
+Totale IVA € 4,80
+TOTALE FORNITURA € 52,75
+Capitale Sociale: euro 3.000.000,00 i.v. • Codice fiscale e P. IVA: 02356770988 Illumia S.p.A.
+Iscritta presso C.C.I.A.A. di Bologna Registro Imprese 02356770988 Via dè Carracci, 69/2 - 40129, Bologna
+Società soggetta ad attività di direzione e coordinamento di Tremagi S.r.l. www.illumia.it
+C.F., P. IVA e N. Registro Imprese di Bologna: 02965701200
+Registro A.E.E. IT14040000008352 • Registro Nazionale Pile: IT17030P00004389
+Contributo Ambientale CONAI assolto 2/5
+
+GLOSSARIO VOCI IMPORTI FORNITURA
+Spesa per la materia energia Spesa per il trasporto e la gestione del contatore
+Comprende gli importi fatturati relativamente alle diverse attività svolte dal Copre i costi sostenuti per trasportare sulla rete di trasmissione nazionale e per
+venditore per fornire l'energia al cliente finale (acquisto, dispacciamento, distribuire sulle reti di distribuzione locale l'energia elettrica, nonché per gestire e
+commercializzazione al dettaglio). Tale remunerazione è in favore del Venditore, leggere i contatori e i dati delle letture. Tale remunerazione è in favore del
+tranne la quota relativa al dispacciamento che viene percepita da Terna. Distributore
+Spesa per gli oneri di sistema COMUNICAZIONE AUTOLETTURA
+Tali componenti sono individuate dal Governo con decreto o dal E' possibile comunicare l’autolettura nel periodo compreso tra il giorno 23
+Parlamento tramite legge e dall'ARERA. Tale voce copre costi relativi ad attività Giugno e il giorno 30 Giugno, tramite i seguenti canali:
+di interesse generale come: incentivi alle fonti rinnovabili, agevolazioni per Internet: sul sito www.illumia.it, accedendo alla propria Area Riservata
+il settore ferroviario, agevolazioni alle industrie energivore, bonus elettrico, chiamando il numero verde 800.046.640 (da cellulare: 051.600.8080)
+promozione dell'efficienza energetica, enti locali che ospitano impianti nucleari. scaricando l’App Illumia direttamente sul tuo smartphone
+Modalità pagamento
+• Bonifico bancario:
+E’ possibile pagare tramite bonifico su conto corrente intestato a ILLUMIA SPA indicando nella causale il numero fattura e il codice cliente, utilizzando le seguenti coordinate bancarie:
+Cherry Bank - IBAN: IT04K0336568020000000001259
+• Bollettino:
+E’ possibile pagare tramite bollettino, presso gli uffici postali o sul sito di Poste Italiane www.poste.it, utilizzando il conto corrente postale n. 82159609 intestato a ILLUMIA SPA
+indicando nella causale il numero fattura e il codice cliente.
+• Carta di Credito:
+E’ possibile pagare tramite carta di credito accedendo all’Area Clienti sul sito www.illumia.it
+Fattura di Dettaglio
+Gentile cliente, ti ricordiamo che è possibile visualizzare la fattura di dettaglio nella tua Area Clienti del sito www.illumia.it.
+Ricalcoli
+Indica che la bolletta contiene un ricalcolo di consumi o corrispettivi già fatturati in precedenti bollette. I tipi di ricalcoli possono essere: ricalcoli consumi precedentemente stimati o
+ricalcoli consumi per altre motivazioni. Il secondo tipo di ricalcolo può verificarsi nel caso di una modifica dei dati di misura o nel caso di una modifica delle componenti di prezzo
+applicate.
+Informazioni relative ai pagamenti ed agli interessi di mora (no insoluti)
+Gentile cliente risultano pagate tutte le fatture. In caso di ritardato pagamento delle fatture, il Cliente Business sarà tenuto, senza la necessità di formale messa in mora da parte del
+Creditore, alla corresponsione in favore di quest'ultimo di interessi moratori sugli importi delle fatture insolute al tasso BCE tempo per tempo vigente aumentato di 8 punti percentuali, così
+come previsto dal D. Lgs. n.231/2002, dal giorno successivo alla scadenza di ciascuna fattura e sino all'integrale soddisfo. Per il Cliente Domestico, dalla data di scadenza di ogni fattura
+saranno dovuti, senza necessità di Messa in mora, gli interessi legali, salvo il maggior danno.
+Adeguamento normativo morosità
+Gentile cliente, secondo le delibere 67/13 e 173/13 dell'Autorità per l'energia elettrica e il gas la gestione di una eventuale morosità è così modificata: il venditore è tenuto a consegnare la
+raccomandata di messa in mora al vettore incaricato entro 3/5 giorni lavorativi dall’emissione della stessa; la data ultima di pagamento indicata non può essere inferiore a 15/17 giorni
+dall'invio della comunicazione, tale termine risulta essere di 10/12 giorni dalla ricezione qualora l'invio avvenga a mezzo PEC, ovvero non può essere inferiore a 20/22 giorni
+dall'emissione della messa in mora qualora non sia verificabile la data spedizione.
+La richiesta di sospensione della fornitura può essere formulata non prima di 3 giorni lavorativi dopo la data ultima di pagamento indicata nella comunicazione di messa in mora.
+Qualora la sospensione avvenga senza l'invio della messa in mora il cliente avrà diritto ad un indennizzo pari a 30 €, qualora i termini sopra riportati non venissero rispettati l'indennizzo al
+quale il cliente avra' diritto e' pari a 20 €.
+Informazioni relative alla morosità
+Nei casi previsti dalla delibera dell'autorità per l'energia elettrica ed il gas ARG/elt 4/08 e s.m.i., a fronte di mancato pagamento da parte del Cliente del corrispettivo di una o piu' fatture
+sara' attivata la procedura per la sospensione della fornitura di energia per i punti di prelievo intestati al cliente.
+Come specificato nelle CGF fornite alla stipula del contratto, tale procedura prevede:
+a)Inoltro della raccomandata A/R di messa in mora, contenente indicazioni relative alle modalita' di pagamento consentite e alle modalita' di comunicazione a Illumia SpA degli avvenuti
+pagamenti
+b) Avvio del processo di sospensione della fornitura, decorso il termine di pagamento riportato nella raccomandata A/R di messa in mora, in presenza di insoluti e nelle modalita' previste
+dalle delibere vigenti.
+Eventuali disservizi o danni derivanti dalla sospensione della fornitura, a seguito del processo di messa in mora, non sono da considerarsi di responsabilita' di Illumia SpA.
+Come previsto dalla delibera dell'autorita' per l'energia elettrica ed il gas ARG/elt 4/08 e s.m.i. i corrispettivi di sospensione ed eventuale riattivazione della fornitura nonche' le spese
+sostenute per l'inoltro delle messe in mora e dei solleciti di pagamento saranno incluse nella prima fattura utile.
+In ogni caso di risoluzione del Contratto per morosita' del Cliente, il Fornitore avra' diritto al versamento degli interessi di mora oltre al maggior danno.
+Piano di Emergenza per la Sicurezza del Servizio Elettrico (PESSE)
+In caso di carenza di potenza sulla Rete di Trasmissione Nazionale, potrebbe essere necessario attuare i distacchi delle utenze programmati a rotazione secondo il PESSE. Il piano,
+definito di concerto con TERNA, e' finalizzato ad evitare back-out incontrollati, con conseguenti disagi per l'utenza. Le informazioni sui distacchi programmati sono reperibili presso il
+distributore locale, i cui riferimenti sono indicati in fattura.
+Aggiornamento corrispettivi
+Il prezzo della energia e delle perdite di rete sono aggiornati secondo quanto previsto dalle CE.
+La tariffa di distribuzione, le componenti tariffarie A/UC/MCT, il corrispettivo a copertura dei costi di trasmissione ed il corrispettivo di misura sono aggiornati ai sensi della delibera ARERA
+348/07 e s.m.i.
+Il corrispettivo a copertura dei costi di dispacciamento è aggiornato ai sensi della delibera ARERA 111/06 e s.m.i.
+Prescrizione breve: attuazione delle previsioni della legge Bilancio 2018 (205/2017)
+La Legge di Bilancio 2018 (Legge n. 205/17) prevede che gli importi fatturati per consumi risalenti a più di due anni possano essere non pagati. La invitiamo quindi a
+controllare se la presente fattura fa riferimento a un periodo superiore a due anni e, in tal caso, la invitiamo a comunicare tempestivamente la Sua volontà contattando il
+nostro Servizio Clienti. I nostri operatori le forniranno tutte le informazioni necessarie per non pagare tali importi.
+Capitale Sociale: euro 3.000.000,00 i.v. • Codice fiscale e P. IVA: 02356770988 Illumia S.p.A.
+Iscritta presso C.C.I.A.A. di Bologna Registro Imprese 02356770988 Via dè Carracci, 69/2 - 40129, Bologna
+Società soggetta ad attività di direzione e coordinamento di Tremagi S.r.l. www.illumia.it
+C.F., P. IVA e N. Registro Imprese di Bologna: 02965701200
+Registro A.E.E. IT14040000008352 • Registro Nazionale Pile: IT17030P00004389
+Contributo Ambientale CONAI assolto 3/5
+
+Mix energetico per la produzione di energia elettrica (Decreto 31 luglio 2009 del Ministero dello Sviluppo Economico)
+Composizione del mix energetico utilizzato per la produzione dell'energia elettrica Composizione del mix medio nazionale utilizzato per la produzione dell'energia
+venduta da Illumia SpA nei due anni precedenti elettrica immessa nel sistema elettrico nei due anni precedenti
+2023 (dato 2023 (dato
+Fonti primarie utilizzate 2022 (dato consuntivo) Fonti primarie utilizzate 2022 (dato consuntivo)
+pre-consuntivo) pre-consuntivo)
+Fonti rinnovabili 38,53% 42,53% Fonti rinnovabili 46,31% 36,95%
+Carbone 12,53% 10,39% Carbone 5,27% 8,34%
+Gas naturale 41,20% 40,10% Gas naturale 42,99% 48,66%
+Prodotti petroliferi 1,10% 1,14% Prodotti petroliferi 0,90% 1,16%
+Nucleare 1,98% 1,74% Nucleare 0,00% 0,00%
+Altre fonti 4,66% 4,09% Altre fonti 4,53% 4,89%
+Corrispettivo a copertura degli oneri netti di approvvigionamento della capacità
+Ai sensi della delibera ARG/elt 98/11 s.m.i., così come indicato dalla delibera 566/2021/R/eel e quantificato da TERNA, dal mese di Gennaio 2022 a tutti i clienti finali viene applicato il
+corrispettivo a copertura degli oneri netti di approvvigionamento della capacità.
+Illumia applicherà il corrispettivo stabilito dall’ARERA come indicato all’articolo 34.8bis del TIV e s.m.i. per il servizio a tutele graduali e per le offerte PLACET (art. 18.1 del.
+555/2017/R/com).
+Attivazione del Servizio di Conciliazione
+Il Servizio Conciliazione è stato istituito dall'Autorità per mettere a disposizione dei clienti finali di energia elettrica e gas una procedura semplice e veloce di risoluzione di eventuali
+controversie con gli operatori, mediante l'intervento di un conciliatore appositamente formato in mediazione ed energia che aiuta le parti a trovare un accordo. Il Servizio Conciliazione è
+disponibile anche per i prosumer (produttori e consumatori di energia elettrica) per le eventuali controversie con gli operatori e il GSE. Il Servizio Conciliazione, gestito da Acquirente
+Unico per conto dell'Autorità, è gratuito e si svolge on line, in conformità con la normativa europea sull'energia e sulla risoluzione alternativa delle controversie (ADR - Alternative Dispute
+Resolution). Il Servizio Conciliazione è iscritto negli elenchi ADR e ODR europei in materia di consumo. La procedura del Servizio Conciliazione si attiva registrandosi alla piattaforma on
+line https://www.sportelloperilconsumatore.it/
+In alternativa al Servizio Conciliazione, è possibile svolgere il tentativo obbligatorio di conciliazione delle controversie nei settori dell'energia, presso gli organismi iscritti nell'elenco ADR
+dell'Autorità (per i clienti domestici), tra cui organismi che offrono procedure di negoziazione paritetica realizzate sulla base di accordi fra operatori e Associazioni dei consumatori, e
+presso le Camere di Commercio che hanno aderito alla convenzione sottoscritta dall'Autorità con Unioncamere.
+Informazioni per il consumatore
+Per scoprire se ci sono altre offerte più adatte alle tue esigenze, per conoscere meglio le tue abitudini di consumo, i tuoi consumi storici e per confrontare il tuo consumo nello stesso
+periodo degli anni precedenti e per ricevere informazioni o conoscere i tuoi diritti, consulta www.arera.it/consumatori.
+Guida alla Bolletta
+Gentile cliente, puoi consultare la Guida alla Lettura relativa alla tua bolletta dal link Guida Bolletta Illumia | Illumia oppure inquadrando il seguente QR Code
+(cid:128)(cid:66)(cid:94)(cid:94)(cid:94)(cid:66)(cid:128)(cid:1)(cid:80)(cid:87)(cid:62)(cid:81)(cid:96)(cid:109)(cid:118)(cid:85)(cid:112)(cid:17)(cid:54)(cid:43)(cid:4)(cid:85)(cid:36)(cid:85)(cid:6)(cid:1)(cid:128)(cid:66)(cid:94)(cid:94)(cid:94)(cid:66)(cid:128)
+(cid:40)(cid:2)(cid:11)(cid:14)(cid:34)(cid:15)(cid:43)(cid:56)(cid:115)(cid:11)(cid:97)(cid:91)(cid:108)(cid:11)(cid:96)(cid:126)(cid:70)(cid:128)(cid:62)(cid:37)(cid:101)(cid:104)(cid:111)(cid:92)(cid:39)(cid:62)(cid:47)(cid:33)(cid:35)(cid:59)(cid:18)(cid:15)(cid:39)
+(cid:34)(cid:42)(cid:98)(cid:39)(cid:105)(cid:9)(cid:86)(cid:67)(cid:36)(cid:115)(cid:20)(cid:120)(cid:52)(cid:74)(cid:80)(cid:127)(cid:13)(cid:64)(cid:107)(cid:18)(cid:61)(cid:124)(cid:58)(cid:109)(cid:64)(cid:103)(cid:116)(cid:7)(cid:18)(cid:14)(cid:73)(cid:87)(cid:3)
+(cid:76)(cid:11)(cid:19)(cid:43)(cid:11)(cid:67)(cid:44)(cid:97)(cid:87)(cid:112)(cid:59)(cid:67)(cid:29)(cid:120)(cid:45)(cid:120)(cid:70)(cid:32)(cid:115)(cid:9)(cid:59)(cid:64)(cid:10)(cid:125)(cid:48)(cid:57)(cid:27)(cid:89)(cid:48)(cid:11)(cid:69)(cid:103)(cid:17)
+(cid:125)(cid:5)(cid:117)(cid:117)(cid:117)(cid:5)(cid:125)(cid:1)(cid:69)(cid:117)(cid:109)(cid:37)(cid:89)(cid:93)(cid:25)(cid:125)(cid:113)(cid:93)(cid:57)(cid:1)(cid:77)(cid:125)(cid:69)(cid:45)(cid:77)(cid:89)(cid:117)(cid:113)(cid:113)(cid:81)(cid:49)(cid:1)(cid:5)
+Disposizioni automatiche di pagamento - comunicazione codice mandato
+Gentile Cliente, come previsto dalla Delibera 217/2024/R/eel, di seguito riportiamo i codici mandato relativi all’autorizzazione all’addebito diretto sui conti di pagamento oggetto di
+trasferimento:
+Codice mandato precedente: O563612424553713
+Ragione sociale precedente esercente maggior tutela: SERVIZIO ELETTRICO NAZIONALE S.P.A.
+Codice mandato ILLUMIA: 197F9AA000522458
+Per maggiori informazioni contatta il nostro sevizio clienti: 800 606 060 gratuito dal numero fisso – 051 600 8066 dal cellulare.
+Del. 217/2024 Notifica addebito diretto
+Come disposto dalla Del. 217/2024, si pre-notifica che l’addebito diretto della fattura avverrà a partire dal 03/06/2025
+Pun Index GME
+Gentile cliente, come previsto dalla Deliberazione 304/2024/R/EEL, la informiamo che il decreto legislativo 210/2021, successivamente modificato dal decreto-legge 181/23 e, infine,
+definito nelle condizioni di applicazione dal MASE con il decreto 18 aprile 2024, ha disposto la sostituzione del PUN con il nuovo indice “PUN Index GME” a decorrere dal 1° gennaio
+2025.
+Comunicazioni dell’Autorità di Regolazione per Energia Reti e Ambiente
+Gentile cliente,
+Bonus sociali elettrico e gas per disagio economico
+Per ottenere i bonus sociali elettrico e gas è necessario presentare ogni anno la Dichiarazione Sostitutiva Unica (DSU) e ottenere un'attestazione ISEE
+(https://www.inps.it/prestazioni-servizi/come-compilare-la-dsu-e-richiedere-l-isee) entro la soglia prevista dalla normativa, pari per l'anno 2023 a € 15.000 (€ 20.000 per i nuclei familiari
+con almeno 4 figli a carico). Per maggiori informazioni contatti il Numero Verde 800.166654 o visiti il sito https://www.arera.it/it/bonus_sociale.htm
+Addebiti Insoluti Canone Rai
+Informiamo che qualora risultino importi addebitati e non pagati, attraverso le fatture per la fornitura di energia elettrica, afferenti il canone di abbonamento alla televisione per uso privato
+(canone tv) relativo all'anno 2023 il pagamento potrà essere effettuato esclusivamente mediante modello F24.
+Per ulteriori informazioni può rivolgersi al suo venditore o accedere alla sezione "Canone TV" del sito www.agenziaentrate.gov.it o del sito www.canone.rai.it
+Decreto legislativo 210/21
+Tutte le fonti di energia possono anche beneficiare di incentivi non indicati tra gli importi fatturati in bolletta
+Informativa clienti vulnerabili energia elettrica
+Capitale Sociale: euro 3.000.000,00 i.v. • Codice fiscale e P. IVA: 02356770988 Illumia S.p.A.
+Iscritta presso C.C.I.A.A. di Bologna Registro Imprese 02356770988 Via dè Carracci, 69/2 - 40129, Bologna
+Società soggetta ad attività di direzione e coordinamento di Tremagi S.r.l. www.illumia.it
+C.F., P. IVA e N. Registro Imprese di Bologna: 02965701200
+Registro A.E.E. IT14040000008352 • Registro Nazionale Pile: IT17030P00004389
+Contributo Ambientale CONAI assolto 4/5
+
+Il servizio di maggior tutela con condizioni contrattuali ed economiche definite dall’Autorità di Regolazione per Energia Reti e Ambiente (ARERA) continuerà a essere disponibile per i soli
+clienti “vulnerabili” di energia elettrica, anche quando non sarà più attivo per gli altri clienti domestici. Per sapere se Lei ne ha diritto consulti il sito di ARERA www.arera.it/consumatori o
+chiami il numero verde 800.166.654.
+Se Lei è un cliente vulnerabile, come definito dalla normativa vigente, può scegliere di essere fornito nel servizio di maggior tutela, con condizioni economiche e contrattuali per la
+fornitura di energia elettrica stabilite da ARERA (Autorità di Regolazione per Energia Reti e Ambiente). Per verificare se ha diritto a questa tutela, consulti il sito di ARERA
+www.arera.it/consumatori o chiami il numero verde 800.166.654.
+Capitale Sociale: euro 3.000.000,00 i.v. • Codice fiscale e P. IVA: 02356770988 Illumia S.p.A.
+Iscritta presso C.C.I.A.A. di Bologna Registro Imprese 02356770988 Via dè Carracci, 69/2 - 40129, Bologna
+Società soggetta ad attività di direzione e coordinamento di Tremagi S.r.l. www.illumia.it
+C.F., P. IVA e N. Registro Imprese di Bologna: 02965701200
+Registro A.E.E. IT14040000008352 • Registro Nazionale Pile: IT17030P00004389
+Contributo Ambientale CONAI assolto 5/5
+

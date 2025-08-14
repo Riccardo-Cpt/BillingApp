@@ -1,0 +1,336 @@
+{
+  "header": [
+    "DATI CLIENTE - Fornitura di Energia Elettrica nel Servizio a Tutele Graduali\nDomestici non Vulnerabili"
+  ],
+  "rows": [
+    [
+      "1501342066\nCODICE CLIENTE\nCodice contratto 3501221456\nRagione Sociale GENNARO ALLESSANDRINI\nCodice fiscale GLNNMCN96C1U683C\nIndirizzo VIA PALUSTRI 22\n21040 SUMIRAGO (SO)"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "FORNITURA DI ENERGIA ELETTRICA Periodo di riferimento: 01/01/2025 - 28/02/2025\nFrequenza di fatturazione: Bimestrale\nFattura N. 412500832149 del 10/03/2025\nSituazione pagamenti precedenti: Regolare"
+  ],
+  "rows": [
+    [
+      "TOTALE DA PAGARE EURO 204,82"
+    ],
+    [
+      "SCADENZA: 31/03/2025\nGentile Cliente, l’importo sarà pagato mediante DOMICILIAZIONE BANCARIA presso UNICREDIT BANCA SPA"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "DATI FORNITURA"
+  ],
+  "rows": [
+    [
+      "VIA GIONGIOLANNI 23\nIndirizzo\n21040 - GOLLANA (SO)"
+    ],
+    [
+      "POD IT003837293562"
+    ],
+    [
+      "Tipo Cliente Domestico Non residente"
+    ],
+    [
+      "Tensione di fornitura Bassa tensione"
+    ],
+    [
+      "Potenza impegnata 6,00 kW"
+    ],
+    [
+      "Potenza disponibile 6,60 kW"
+    ],
+    [
+      "Offerta STG Domestici Non Vulnerabili"
+    ],
+    [
+      "Codice Offerta 000155ENVFT00DXSERV_TUT_GRADUALI"
+    ],
+    [
+      "Data scadenza contratto Contratto a tempo indeterminato"
+    ],
+    [
+      "Data inizio condizioni economiche 01/07/2024"
+    ],
+    [
+      "Data fine condizioni economiche 31/12/9999"
+    ],
+    [
+      "Data inizio fornitura 01/07/2024"
+    ],
+    [
+      "Consumo da inizio fornitura 1.338 kWh\n(reale) (F1: 288 - F2: 343 - F3: 707)"
+    ],
+    [
+      "Spesa Annua Sostenuta 481,85 €"
+    ],
+    [
+      "Data inizio Spesa Annua 17/09/2024"
+    ],
+    [
+      "Data fine Spesa Annua 10/03/2025"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "CONSUMI"
+  ],
+  "rows": [
+    [
+      "Consumi fatturati 661"
+    ],
+    [
+      "Consumi effettivi 661"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Feb-2025 Effettivo 54 77 106"
+  ],
+  "rows": [
+    [
+      "Gen-2025 Effettivo 86 100 238"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "28/02/2025 Effettiva 643 567 1.076"
+  ],
+  "rows": [
+    [
+      "31/01/2025 Effettiva 589 490 970"
+    ],
+    [
+      "31/12/2024 Effettiva 503 390 732"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "RIEPILOGO FATTURA"
+  ],
+  "rows": [
+    [
+      "IMPORTI FORNITURA"
+    ],
+    [
+      "Spesa per la materia energia € 96,80"
+    ],
+    [
+      "Spesa per il trasporto e la gestione del contatore € 38,02"
+    ],
+    [
+      "Spesa per gli oneri di sistema € 36,38"
+    ],
+    [
+      "Imposte € 15,00"
+    ],
+    [
+      "IVA € 18,62"
+    ],
+    [
+      "TOTALE € 204,82"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "RIEPILOGO IVA"
+  ],
+  "rows": [
+    [
+      "ALIQUOTA IMPONIBILE IMPOSTA"
+    ],
+    [
+      "IVA Vendite 10% € 186,20 € 18,62"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "01/01/2025 - 31/01/2025 Imposta Erariale €/kWh 0,02270000 424,00 9,62 10"
+  ],
+  "rows": [
+    [
+      "01/02/2025 - 28/02/2025 Imposta Erariale €/kWh 0,02270000 237,00 5,38 10"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "CONSUMO STORICO ENERGIA",
+    null,
+    null,
+    null
+  ],
+  "rows": [
+    [
+      "Periodo Consumi (kWh)",
+      "Max Potenza Prelevata (kW)",
+      "Consumo medio\ngiornaliero (kWh)",
+      "Fattore di potenza (Cosphi)"
+    ],
+    [
+      "F1 F2 F3 Totale",
+      "F1 F2 F3",
+      "F1 F2 F3",
+      "F1 F2 F3"
+    ],
+    [
+      "Lug-2024 3 1 2 6",
+      "0,20 0,00 0,00",
+      "0,10 0,03 0,06",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Ago-2024 2 2 2 6",
+      "0,00 0,40 0,00",
+      "0,06 0,06 0,06",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Set-2024 3 1 3 7",
+      "0,10 0,00 0,00",
+      "0,10 0,03 0,10",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Ott-2024 44 14 33 91",
+      "2,60 1,30 3,00",
+      "1,42 0,45 1,06",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Nov-2024 70 65 163 298",
+      "3,10 3,70 3,90",
+      "2,33 2,17 5,43",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Dic-2024 70 97 193 360",
+      "4,10 3,20 3,70",
+      "2,26 3,13 6,23",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Gen-2025 86 100 238 424",
+      "2,60 3,80 3,10",
+      "2,77 3,23 7,68",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "Feb-2025 54 77 106 237",
+      "2,70 2,80 4,50",
+      "1,93 2,75 3,79",
+      "1,00 1,00 1,00"
+    ],
+    [
+      "450\n400 F0\n350\n300 F1\n250\n200 F2\n150\n100 F3\n50\nkWh\nLug Ago Set Ott Nov Dic Gen Feb\n24 24 24 24 24 24 25 25",
+      null,
+      null,
+      null
+    ]
+  ]
+}
+
+{
+  "header": [
+    "IMPORTO TOTALE FORNITURA"
+  ],
+  "rows": [
+    [
+      "Totale imponibile € 186,20"
+    ],
+    [
+      "Totale IVA € 18,62"
+    ],
+    [
+      "TOTALE FORNITURA € 204,82"
+    ]
+  ]
+}
+
+{
+  "header": [
+    "Composizione del mix energetico utilizzato per la produzione dell'energia elettrica\nvenduta da Illumia SpA nei due anni precedenti",
+    null,
+    null,
+    "Composizione del mix medio nazionale utilizzato per la produzione dell'energia\nelettrica immessa nel sistema elettrico nei due anni precedenti",
+    null,
+    null
+  ],
+  "rows": [
+    [
+      "2023 (dato 2023 (dato\nFonti primarie utilizzate 2022 (dato consuntivo) Fonti primarie utilizzate 2022 (dato consuntivo)\npre-consuntivo) pre-consuntivo)",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Fonti rinnovabili",
+      "38,53%",
+      "42,53%",
+      "Fonti rinnovabili",
+      "46,31%",
+      "36,95%"
+    ],
+    [
+      "Carbone",
+      "12,53%",
+      "10,39%",
+      "Carbone",
+      "5,27%",
+      "8,34%"
+    ],
+    [
+      "Gas naturale",
+      "41,20%",
+      "40,10%",
+      "Gas naturale",
+      "42,99%",
+      "48,66%"
+    ],
+    [
+      "Prodotti petroliferi",
+      "1,10%",
+      "1,14%",
+      "Prodotti petroliferi",
+      "0,90%",
+      "1,16%"
+    ],
+    [
+      "Nucleare",
+      "1,98%",
+      "1,74%",
+      "Nucleare",
+      "0,00%",
+      "0,00%"
+    ],
+    [
+      "Altre fonti",
+      "4,66%",
+      "4,09%",
+      "Altre fonti",
+      "4,53%",
+      "4,89%"
+    ]
+  ]
+}

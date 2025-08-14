@@ -1,0 +1,367 @@
+FORNITURA DI ENERGIA ELETTRICA
+NEL SERVIZIO A TUTELE GRADUALI
+DATI CLIENTE
+CODICE CLIENTE 1501342066
+Intestatario GENNARO ALLESSANDRINI
+Codice Fiscale GLNNMCN96C1U683C
+Indirizzo di VIA PALUSTRI 22 21040 SUMIRAGO (SO)
+fatturazione
+ASSISTENZA E CONTATTI
+SEGNALAZIONE GUASTI Attivo 24h su 24 GENNARO ALLESSANDRINI
+E-DISTRIBUZIONE SPA
+VIA PALUSTRI 22
+803 500
+21040 SUMIRAGO VA
+SERVIZIO CLIENTI ILLUMIA
+800.606.060 da rete fissa | 051.600.80.66 da rete mobile
+Lun-Ven: 8:00-19:00 | Sab: 9:00-13:00 (giorni festivi esclusi)
+tutelegraduali@illumia.it
+Via De' Carracci, 69/2 40129 Bologna
+FATTURA
+Data di emissione 11/07/2025 Periodo di competenza 01/05/2025 - 30/06/2025
+N. Fattura elettronica valida ai fini fiscali 412502113295 Data di scadenza 31/07/2025
+TOTALE DA PAGARE 41,21 €
+Per maggiori dettagli si veda lo scontrino dell'energia nella pagina successiva
+Gentile Cliente, l’importo sarà pagato mediante DOMICILIAZIONE BANCARIA presso UNICREDIT BANCA SPA
+Situazione pagamenti precedenti: Regolare
+Le fatture precedenti sono saldate regolarmente. Grazie!
+CONSUMI OFFERTA
+Consumo totale fatturato nel 29,00 kWh Offerta commerciale STG Domestici Non Vulnerabili
+periodo
+Data di scadenza condizioni A tempo indeterminato
+Consumo da inizio fornitura 1.446 kWh economiche
+(reale) F1: 312 kWh - F2: 390 kWh - F3: 744 kWh
+dal 01/07/2024 a 30/06/2025
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it
+Capitale Sociale: euro 3.000.000,00 iv. • Codice fiscale e P. IVA: 02356770988 Iscritta presso C.C.I.A.A. di Bologna Registo limase 02356770988
+Società soggetta ad attività di direzione e coordinamento di Tremagi S.r.l. 1/7
+Registro A.E.E. IT14040000008352 Registro Nazionale Pile: IT17030P00004389 Contributo Ambientale CONAl assolto
+
+DATI FORNITURA
+Inquadra il QR Code
+POD IT003837293562 per visualizzare i
+dettagli dello
+Codice Contratto 3501221456
+scontrino.
+Potenza impegnata 6,00 kW
+Potenza disponibile 6,60 kW
+Indirizzo di fornitura VIA GIONGIOLANNI 23 - 21040 - Oppure vai
+GOLLANA (SO) area-clienti.illumia.it
+Frequenza di fatturazione Bimestrale
+SCONTRINO DELL'ENERGIA ELETTRICA
+Quantità Prezzo medio Importi
+QUOTA PER CONSUMI
+29,00 kWh x 0,163103 €/kWh 4,73 €
+di cui spesa per vendita energia elettrica 0,117931 €/kWh 3,42 €
+di cui spesa per la rete e gli oneri generali di sistema 0,045172 €/kWh 1,31 €
+QUOTA FISSA E QUOTA POTENZA
+3,400000 €/Mese 6,80 €
+di cui spesa per vendita energia elettrica - 6,050000 €/Mese -12,10 €
+di cui spesa per la rete e gli oneri generali di sistema 9,450000 €/Mese 18,90 €
+6,00 Kw per 2 Mesi x 2,106667 €/kW/Mese 25,28 €
+di cui spesa per la rete e gli oneri generali di sistema 2,106667 €/kW/Mese 25,28 €
+Accise e Iva 4,40 €
+Totale bolletta 41,21 €
+Totale da pagare 41,21 €
+PREZZO MEDIO
+Il prezzo medio rappresenta un valore medio di sintesi. I singoli prezzi e corrispettivi applicati ai quantitativi consumati sono negli Elementi di dettaglio.
+SPESA PER LA VENDITA DI ENERGIA ELETTRICA
+La spesa per la vendita di energia elettrica è determinata in base ai corrispettivi di vendita previsti dal contratto e indicati nel Box dell'offerta.
+SPESA PER LA RETE E GLI ONERI GENERALI DI SISTEMA
+La spesa per la rete e gli oneri generali di sistema comprende gli importi per le attività di trasporto dell'energia elettrica sulle reti di trasmissione nazionali, di distribuzione
+locale e per l’attività di misura; i corrispettivi per tali attività sono definiti dall’Autorità in modo uniforme su tutto il territorio nazionale, tenendo conto dei costi sostenuti
+per tali attività. Nella voce sono anche compresi gli oneri generali di sistema, relativi ad attività di interesse generale e in particolare, per il settore elettrico, per il sostegno
+alle fonti rinnovabili.
+BOX DELL'OFFERTA
+Spesa per la vendita di energia elettrica
+OFFERTA COMMERCIALE STG Domestici Non Vulnerabili
+Codice offerta 000155ENVFT00DXSERV_TUT_GRADUALI
+Tipologia offerta Offerta Prezzo Variabile
+Tipologia di prezzo Offerta Trioraria
+Oneri di recesso anticipato Nessun onere di recesso anticipato
+TOTALE SPESA PER IL PERIODO FATTURATO -8,68 €
+di cui spesa per la quota per consumi 3,42 €
+di cui spesa per la quota fissa -12,10 €
+DATA INIZIO CONDIZIONI ECONOMICHE 01/07/2024
+Data scadenza condizioni economiche A tempo indeterminato
+Data scadenza contratto A tempo indeterminato
+FORMULA PREVISTA PER LA QUOTA CONSUMI Corrispettivo CELD + Corrispettivo CDISPD + Corrispettivo CPSTGD
++ Corrispettivo CSED
+Indice di riferimento PUN Index GME
+Periodicità aggiornamento indice Mensile
+Valori assunti dall'indice nel periodo di riferimento Corrispettivo CELD (F1) Mag 2025: F1: 0,098000 €/kWh
+(al lordo delle perdite di rete)
+Corrispettivo CELD (F1) Giu 2025: F1: 0,124371 €/kWh
+Corrispettivo CELD (F2) Mag 2025: F2: 0,121700 €/kWh
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it 2/7
+
+Corrispettivo CELD (F2) Giu 2025: F2: 0,139441 €/kWh
+Corrispettivo CELD (F3) Mag 2025: F3: 0,095830 €/kWh
+Corrispettivo CELD (F3) Giu 2025: F3: 0,113994 €/kWh
+Altri valori della formula di prezzo Corrispettivo CDISPD Mag 2025: 0,013862 €/kWh
+(al lordo delle perdite di rete)
+Corrispettivo CDISPD Giu 2025: 0,018189 €/kWh
+Corrispettivo CPSTGD Mag 2025: -0,020860 €/kWh
+Corrispettivo CPSTGD Giu 2025: -0,020860 €/kWh
+Corrispettivo CSED Mag 2025: 0 €/kWh
+Corrispettivo CSED Giu 2025: 0,000560 €/kWh
+Per maggiori dettagli sul Box dell'offerta visita la pagina www.illumia.it/box-offerta
+Le perdite di rete (λ) sono pari a: 10% per le forniture in Bassa Tensione, 3,8% per le forniture in Media Tensione e 1,8% per le forniture in Alta Tensione.
+CARATTERISTICHE TECNICHE
+DATI FORNITURA CARATTERISTICHE TECNICHE
+In questa sezione vengono
+Tipologia di cliente Domestico Non residente riportate le caratteristiche
+Tensione di fornitura Bassa tensione tecniche della tua fornitura
+e del tuo contatore.
+CONSUMI E LETTURE
+CONSUMI CONSUMI
+I consumi possono essere
+effettivi (da letture reali),
+Periodo Tipo F1 F2 F3 Consumi Fatturati 29,00 stimati (calcolati in assenza
+di letture reali), fatturati
+Giugno 2025 Effettivo 12 4 8 di cui Effettivi 29,00 (addebitati nel periodo) e
+stornati (rettifica di
+Maggio 2025 Effettivo 2 2 1
+consumi fatturati in
+precedenza). I consumi
+totali sono la somma dei
+consumi fatturati e di
+consumi stornati.
+LETTURE LETTURE
+Le letture sono i dati
+rilevati dal contatore, sia
+Data Tipo F1 F2 F3
+tramite autolettura che da
+sistemi di telelettura, e
+30/06/2025 Effettiva 667 614 1.113 indicano la quantità di
+31/05/2025 Effettiva 655 610 1.105 energia utilizzata in un
+determinato periodo.
+30/04/2025 Effettiva 653 608 1.104
+COMUNICAZIONE AUTOLETTURA
+E' possibile comunicare l'autolettura tra il 23 Agosto e il 31 Agosto tramite i seguenti canali:
+• Online → Accedendo all'Area Clienti Illumia su area-clienti.illumia.it
+• App → Scaricando l'App Illumia sul proprio smartphone
+• Telefono → Chiamando il Numero Verde 800.606.060 (da cellulare: 051.600.8066)
+IMPOSTE
+RIEPILOGO IMPOSTE IMPOSTE
+Importi applicati ai consumi
+di energia elettrica, relativi
+Periodo Descrizione Prezzo Quantità Totale euro IVA
+alle accise, determinati
+secondo la normativa
+01/05/2025 - 31/05/2025 Imposta Erariale 0,02270000 €/kWh 5,00 kWh 0,11 € 10 % vigente.
+01/06/2025 - 30/06/2025 Imposta Erariale 0,02270000 €/kWh 24,00 kWh 0,54 € 10 % Questi oneri sono inclusi in
+fattura e versati allo Stato.
+Totale Imposte 0,65 €
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it 3/7
+
+ONERI GENERALI DI SISTEMA
+ONERI GENERALI DI SISTEMA ONERI GENERALI DI SISTEMA
+Corrispettivi a copertura
+dei costi stabiliti
+Componente ASOS
+dall'Autorità per
+finanziare attività di
+Periodo Prezzo Quantità Totale euro IVA
+interesse generale nel
+settore energetico.
+01/05/2025 - 31/05/2025 0,02967700 euro/kWh 5,00 0,15 € 10 % Comprendono la
+01/05/2025 - 31/05/2025 7,55350000 euro/cliente/mese 1,00 7,55 € 10 % Componente ASOS a
+copertura dei costi per il
+01/06/2025 - 30/06/2025 0,02967700 euro/kWh 24,00 0,71 € 10 %
+sostegno delle fonti
+01/06/2025 - 30/06/2025 7,55350000 euro/cliente/mese 1,00 7,55 € 10 % rinnovabili e da
+cogenerazione e la
+Componente ARIM Componente ARIM a
+copertura di altri oneri
+Periodo Prezzo Quantità Totale euro IVA relativi ad attività di
+interesse generale.
+01/05/2025 - 31/05/2025 0,00164500 euro/kWh 5,00 0,01 € 10 %
+01/06/2025 - 30/06/2025 0,00164500 euro/kWh 24,00 0,04 € 10 %
+Totale Oneri generali di sistema 16,01 €
+DATI STORICI DI CONSUMO
+CONSUMI
+Consumo da inizio fornitura (reale) 1.446 kWh Spesa annua sostenuta 575,81 €
+dal 01/07/2024 al 30/06/2025 F1: 312 kWh - F2: 390 kWh - F3: 744 kWh dal 17/09/2024 a 11/07/2025
+CONSUMO STORICO ENERGIA
+Periodo Consumi (kWh)
+0 106 212 318 424kWh
+F1 F2 F3 TOTALE
+Luglio 2024 3 1 2 6
+Agosto 2024 2 2 2 6
+Settembre 2024 3 1 3 7
+Ottobre 2024 44 14 33 91
+Novembre 2024 70 65 163 298
+Dicembre 2024 70 97 193 360
+Gennaio 2025 86 100 238 424
+Febbraio 2025 54 77 106 237
+Marzo 2025 9 34 25 68
+Aprile 2025 1 7 3 11
+Maggio 2025 2 2 1 5
+Giugno 2025 12 4 8 24
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it 4/7
+
+CONSUMO STORICO MEDIO GIORNALIERO
+Periodo Consumo medio giornaliero (kWh)
+0 19 38 58 77kWh
+F1 F2 F3
+Luglio 2024 0,10 0,03 0,06
+Agosto 2024 0,06 0,06 0,06
+Settembre 2024 0,10 0,03 0,10
+Ottobre 2024 1,42 0,45 1,06
+Novembre 2024 2,33 2,17 5,43
+Dicembre 2024 2,26 3,13 6,23
+Gennaio 2025 2,77 3,23 7,68
+Febbraio 2025 1,93 2,75 3,79
+Marzo 2025 0,29 1,10 0,81
+Aprile 2025 0,03 0,23 0,10
+Maggio 2025 0,06 0,06 0,03
+Giugno 2025 0,40 0,13 0,27
+PRELIEVO STORICO POTENZA POTENZA RILEVATA
+La tabella mostra, per ciascun mese, la potenza
+massima effettivamente prelevata suddivisa per
+Periodo Massima potenza rilevata (kW)
+fascia oraria. I valori sono espressi in kilowatt (kW)
+e rappresentano il picco massimo di consumo
+F1 F2 F3 registrato nel corso del mese, indipendentemente
+da quanto a lungo o quante volte è stato raggiunto.
+Luglio 2024 0,2 0 0 Questi dati aiutano a capire quanta potenza è stata
+richiesta nei momenti di maggiore utilizzo, e
+Agosto 2024 0 0,4 0 possono essere utili per confrontare i consumi reali
+con la potenza prevista dal contratto. In questo
+Settembre 2024 0,1 0 0
+modo è possibile valutare se la potenza impegnata
+Ottobre 2024 2,6 1,3 3 è adeguata alle proprie abitudini di consumo,
+evitando costi non necessari o disservizi legati a
+Novembre 2024 3,1 3,7 3,9 una potenza troppo bassa.
+Dicembre 2024 4,1 3,2 3,7
+Gennaio 2025 2,6 3,8 3,1
+Febbraio 2025 2,7 2,8 4,5
+Marzo 2025 2 2,8 2,8
+Aprile 2025 0,1 2,8 1
+Maggio 2025 1 1,5 0,1
+Giugno 2025 1,6 0,4 2,5
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it 5/7
+
+COMUNICAZIONI DELL'AUTORITA' DI REGOLAZIONE PER ENERGIA RETI E AMBIENTI (ARERA)
+Gentile cliente,
+Bonus sociali elettrico e gas per disagio economico
+Per ottenere i bonus sociali elettrico e gas è necessario presentare ogni anno la Dichiarazione Sostitutiva Unica (DSU) e ottenere un'attestazione ISEE
+(https://www.inps.it/prestazioni-servizi/come-compilare-la-dsu-e-richiedere-l-isee) entro la soglia prevista dalla normativa, pari per l'anno 2023 a € 15.000 (€ 20.000
+per i nuclei familiari con almeno 4 figli a carico). Per maggiori informazioni contatti il Numero Verde 800.166654 o visiti il sito
+https://www.arera.it/it/bonus_sociale.html
+Addebiti Insoluti Canone Rai
+Informiamo che qualora risultino importi addebitati e non pagati, attraverso le fatture per la fornitura di energia elettrica, afferenti il canone di abbonamento alla
+televisione per uso privato (canone tv) relativo all'anno 2023 il pagamento potrà essere effettuato esclusivamente mediante modello F24.
+Per ulteriori informazioni può rivolgersi al suo venditore o accedere alla sezione "Canone TV" del sito www.agenziaentrate.gov.it o del sito www.canone.rai.it
+Decreto legislativo 210/21
+Tutte le fonti di energia possono anche beneficiare di incentivi non indicati tra gli importi fatturati in bolletta
+Informativa clienti vulnerabili energia elettrica
+Il servizio di maggior tutela con condizioni contrattuali ed economiche definite dall’Autorità di Regolazione per Energia Reti e Ambiente (ARERA) continuerà a essere
+disponibile per i soli clienti “vulnerabili” di energia elettrica, anche quando non sarà più attivo per gli altri clienti domestici. Per sapere se Lei ne ha diritto consulti il sito
+di ARERA www.arera.it/consumatori o chiami il numero verde 800.166.654.
+Se Lei è un cliente vulnerabile, come definito dalla normativa vigente, può scegliere di essere fornito nel servizio di maggior tutela, con condizioni economiche e
+contrattuali per la fornitura di energia elettrica stabilite da ARERA (Autorità di Regolazione per Energia Reti e Ambiente). Per verificare se ha diritto a questa tutela,
+consulti il sito di ARERA www.arera.it/consumatori o chiami il numero verde 800.166.654.
+Contributo straordinario bonus sociale
+Gentile Cliente, qualora il Suo indicatore della situazione economica equivalente (ISEE) abbia un valore fino a 25.000 euro Lei ha diritto a ricevere automaticamente
+un contributo straordinario del valore di 200 euro sulla fornitura di energia elettrica. A tal fine l’INPS comunica i Suoi dati personali, trasmessi con il modello DSU per
+la definizione dell’ISEE, e strettamente funzionali all’attribuzione automatica del suddetto contributo straordinario, ad ARERA che li tratterà, in qualità di titolare del
+trattamento, in conformità alle indicazioni contenute nell’Informativa Privacy disponibile al link:
+https://www.arera.it/privacy-e-cookies-policy/contributo-straordinario-2025-informativa-trattamento-dati-personali. La presente comunicazione è effettuata a
+beneficio di tutti i componenti maggiorenni il nucleo familiare i cui dati personali sono raccolti attraverso la DSU sottoscritta dal dichiarante.
+MODALITA' DI PAGAMENTO
+• Bonifico bancario: È possibile effettuare il pagamento tramite bonifico su conto corrente intestato a ILLUMIA S.p.A., indicando nella causale il numero della Fattura
+e il codice cliente. Coordinate bancarie: Cherry Bank – IBAN: IT04K0336568020000000001259
+• Bollettino postale: Il pagamento può essere effettuato presso gli uffici postali o online sul sito www.poste.it, utilizzando il conto corrente postale n. 82159609,
+intestato a ILLUMIA S.p.A., specificando nella causale il numero della Fattura e il codice cliente.
+• Carta di credito: È possibile pagare con carta di credito accedendo all’Area Clienti sul sito www.illumia.it
+FATTURA DI DETTAGLIO
+Gentile cliente, ti ricordiamo che è possibile visualizzare la fattura di dettaglio nella tua Area Clienti del sito www.illumia.it.
+RICALCOLI
+Indica che la bolletta contiene un ricalcolo di consumi o corrispettivi già fatturati in precedenti bollette. I tipi di ricalcoli possono essere: ricalcoli consumi
+precedentemente stimati o ricalcoli consumi per altre motivazioni. Il secondo tipo di ricalcolo può verificarsi nel caso di una modifica dei dati di misura o nel caso di
+una modifica delle componenti di prezzo applicate.
+INFORMAZIONI RELATIVE AI PAGAMENTI ED AGLI INTERESSI DI MORA (NO INSOLUTI)
+Gentile cliente risultano pagate tutte le fatture. In caso di ritardato pagamento delle fatture, il Cliente Business sarà tenuto, senza la necessità di formale messa in
+mora da parte del Creditore, alla corresponsione in favore di quest'ultimo di interessi moratori sugli importi delle fatture insolute al tasso BCE tempo per tempo
+vigente aumentato di 8 punti percentuali, così come previsto dal D. Lgs. n.231/2002, dal giorno successivo alla scadenza di ciascuna fattura e sino all'integrale
+soddisfo. Per il Cliente Domestico, dalla data di scadenza di ogni fattura saranno dovuti, senza necessità di Messa in mora, gli interessi legali, salvo il maggior danno.
+ADEGUAMENTO NORMATIVO MOROSITA'
+In base alle delibere 67/13 e 173/13 di ARERA, in caso di morosità il fornitore è tenuto a rispettare le seguenti tempistiche:
+• L'invio della raccomandata di messa in mora deve avvenire entro 3-5 giorni lavorativi dall’emissione.
+• Il termine ultimo per il pagamento non può essere inferiore a:
+• 15-17 giorni dall’invio della comunicazione tramite raccomandata
+• 10-12 giorni dalla ricezione della PEC, se la comunicazione avviene via e-mail certificata
+• 20-22 giorni dall’emissione, se la data di spedizione non è verificabile
+• La sospensione della fornitura può avvenire solo dopo 3 giorni lavorativi dalla scadenza del termine indicato nella messa in mora.
+Se la sospensione avviene senza la preventiva messa in mora, il cliente ha diritto a un indennizzo di 30 €. Se i termini non vengono rispettati, l’indennizzo sarà di 20 €
+INFORMAZIONI RELATIVE ALLE MOROSITA'
+Nei casi previsti dalla delibera dell'autorità per l'energia elettrica ed il gas ARG/elt 4/08 e s.m.i., a fronte di mancato pagamento da parte del Cliente del corrispettivo
+di una o piu' fatture sara' attivata la procedura per la sospensione della fornitura di energia per i punti di prelievo intestati al cliente.
+Come specificato nelle CGF fornite alla stipula del contratto, tale procedura prevede:
+a) Inoltro della raccomandata A/R di messa in mora, contenente indicazioni relative alle modalita' di pagamento consentite e alle modalita' di comunicazione a Illumia
+SpA degli avvenuti pagamenti
+b) Avvio del processo di sospensione della fornitura, decorso il termine di pagamento riportato nella raccomandata A/R di messa in mora, in presenza di insoluti e
+nelle modalita' previste dalle delibere vigenti.
+Eventuali disservizi o danni derivanti dalla sospensione della fornitura, a seguito del processo di messa in mora, non sono da considerarsi di responsabilita' di Illumia
+SpA.
+Come previsto dalla delibera dell'autorita' per l'energia elettrica ed il gas ARG/elt 4/08 e s.m.i. i corrispettivi di sospensione ed eventuale riattivazione della fornitura
+nonche' le spese sostenute per l'inoltro delle messe in mora e dei solleciti di pagamento saranno incluse nella prima fattura utile.
+In ogni caso di risoluzione del Contratto per morosita' del Cliente, il Fornitore avra' diritto al versamento degli interessi di mora oltre al maggior danno.
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it 6/7
+
+PIANO DI EMERGENZA PER LA SICUREZZA DEL SERVIZIO ELETTRICO (PESSE)
+In caso di carenza di potenza sulla Rete di Trasmissione Nazionale, potrebbe essere necessario attuare i distacchi delle utenze programmati a rotazione secondo il
+PESSE. Il piano, definito di concerto con TERNA, e' finalizzato ad evitare back-out incontrollati, con conseguenti disagi per l'utenza. Le informazioni sui distacchi
+programmati sono reperibili presso il distributore locale, i cui riferimenti sono indicati in fattura.
+AGGIORNAMENTO CORRISPETTIVI
+Il prezzo della energia e delle perdite di rete sono aggiornati secondo quanto previsto dalle CE.
+La tariffa di distribuzione, le componenti tariffarie A/UC/MCT, il corrispettivo a copertura dei costi di trasmissione ed il corrispettivo di misura sono aggiornati ai sensi
+della delibera ARERA 348/07 e s.m.i. Il corrispettivo a copertura dei costi di dispacciamento è aggiornato ai sensi della delibera ARERA 111/06 e s.m.i.
+PRESCRIZIONE BREVE: ATTUAZIONE DELLE PREVISIONI DELLA LEGGE DI BILANCIO 2018 (205/2017)
+La Legge di Bilancio 2018 (Legge n. 205/17) prevede che gli importi fatturati per consumi risalenti a più di due anni possano essere non pagati. La invitiamo quindi a
+controllare se la presente fattura fa riferimento a un periodo superiore a due anni e, in tal caso, la invitiamo a comunicare tempestivamente la Sua volontà
+contattando il nostro Servizio Clienti. I nostri operatori le forniranno tutte le informazioni necessarie per non pagare tali importi.
+MIX ENERGETICO PER LA PRODUZIONE DI ENERGIA ELETTRICA
+Composizione del mix energetico utilizzato per la produzione dell'energia Composizione del mix medio nazionale utilizzato per la produzione
+elettrica venduta da Illumia SpA nei due anni precedenti dell'energia elettrica immessa nel sistema elettrico nei due anni precedenti
+2023 2022 2023 2022
+Fonti primarie utilizzate Fonti primarie utilizzate
+(dato pre-consuntivo) (dato consuntivo) (dato pre-consuntivo) (dato consuntivo)
+Fonti rinnovabili 38,53% 42,53% Fonti rinnovabili 46,31% 36,95%
+Carbone 12,53% 10,39% Carbone 5,27% 8,34%
+Gas naturale 41,20% 40,10% Gas naturale 42,99% 48,66%
+Prodotti petroliferi 1,10% 1,14% Prodotti petroliferi 0,90% 1,16%
+Nucleare 1,98% 1,74% Nucleare 0,00% 0,00%
+Altre fonti 4,66% 4,09% Altre fonti 4,53% 4,89%
+CORRISPETTIVO A COPERTURA DEGLI ONERI NETTI DI APPROVVIGIONAMENTO DELLE CAPACITA'
+Ai sensi della delibera ARG/elt 98/11 s.m.i., così come indicato dalla delibera 566/2021/R/eel e quantificato da TERNA, dal mese di Gennaio 2022 a tutti i clienti finali
+viene applicato il corrispettivo a copertura degli oneri netti di approvvigionamento della capacità. Illumia applicherà il corrispettivo stabilito dall’ARERA come
+indicato all’articolo 34.8bis del TIV e s.m.i. per il servizio a tutele graduali e per le offerte PLACET (art. 18.1 del.555/2017/R/com).
+ATTIVAZIONE DEL SERVIZIO DI CONCILIAZIONE
+Il Servizio Conciliazione è stato istituito dall'Autorità per mettere a disposizione dei clienti finali di energia elettrica e gas una procedura semplice e veloce di
+risoluzione di eventuali controversie con gli operatori, mediante l'intervento di un conciliatore appositamente formato in mediazione ed energia che aiuta le parti a
+trovare un accordo. Il Servizio Conciliazione è disponibile anche per i prosumer (produttori e consumatori di energia elettrica) per le eventuali controversie con gli
+operatori e il GSE. Il Servizio Conciliazione, gestito da Acquirente Unico per conto dell'Autorità, è gratuito e si svolge on line, in conformità con la normativa europea
+sull'energia e sulla risoluzione alternativa delle controversie (ADR - Alternative Dispute Resolution). Il Servizio Conciliazione è iscritto negli elenchi ADR e ODR
+europei in materia di consumo. La procedura del Servizio Conciliazione si attiva registrandosi alla piattaforma on line https://www.sportelloperilconsumatore.it/
+In alternativa al Servizio Conciliazione, è possibile svolgere il tentativo obbligatorio di conciliazione delle controversie nei settori dell'energia, presso gli organismi
+iscritti nell'elenco ADR dell'Autorità (per i clienti domestici), tra cui organismi che offrono procedure di negoziazione paritetica realizzate sulla base di accordi fra
+operatori e Associazioni dei consumatori, e presso le Camere di Commercio che hanno aderito alla convenzione sottoscritta dall'Autorità con Unioncamere.
+INFORMAZIONI PER IL CONSUMATORE
+Per scoprire se ci sono altre offerte più adatte alle tue esigenze, per conoscere meglio le tue abitudini di consumo, i tuoi consumi storici e per confrontare il tuo
+consumo nello stesso periodo degli anni precedenti e per ricevere informazioni o conoscere i tuoi diritti, consulta www.arera.it/consumatori.
+DISPOSIZIONI AUTOMATICHE DI PAGAMENTO - COMUNICAZIONE CODICE MANDATO
+Gentile Cliente, come previsto dalla Delibera 217/2024/R/eel, di seguito riportiamo i codici mandato relativi all’autorizzazione all’addebito diretto sui conti di
+pagamento oggetto di trasferimento:
+Codice mandato precedente: #ZMAND_OLD#
+Ragione sociale precedente esercente maggior tutela: #ZFORN_OLD#
+Codice mandato ILLUMIA: #ZMAND_ILL#
+Per maggiori informazioni contatta il nostro sevizio clienti: 800 606 060 gratuito dal numero fisso – 051 600 8066 dal cellulare.
+PUN INDEX GME
+Gentile cliente, come previsto dalla Deliberazione 304/2024/R/EEL, la informiamo che il decreto legislativo 210/2021, successivamente modificato dal decreto-legge
+181/23 e, infine, definito nelle condizioni di applicazione dal MASE con il decreto 18 aprile 2024, ha disposto la sostituzione del PUN con il nuovo indice “PUN Index
+GME” a decorrere dal 1° gennaio 2025.
+Illumia S.p.A. Via de' Carracci, 69/2 - 40129 Bologna | illumia.it 7/7
+
