@@ -1,3 +1,12 @@
+import os
+import json
+import pdfplumber
+import re
+
+in_path = r"C:\Users\admin\Desktop\MieiProgetti\TestAI\illumia_bills"
+out_path= os.path.join(in_path, "output_tables")
+in_path_single = os.path.join(in_path, "412401445158.pdf")
+
 class process_pdf:
     def remove_glyphs(text):
         """Remove glyphs like (cid:76) or (cid:<76>) from a text string."""

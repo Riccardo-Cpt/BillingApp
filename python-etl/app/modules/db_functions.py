@@ -1,6 +1,6 @@
-import psycopg2
+import psycopg2 
 
-class DBUtils:
+class db_utils:
 
     @staticmethod
     def db_connection(host, database, user, password):

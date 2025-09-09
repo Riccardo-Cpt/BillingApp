@@ -45,7 +45,10 @@ services:
     depends_on:
         bill-db:
             condition: service_healthy
-    command: ["python", "main.py"]
+    #command: ["python", "main.py"]
+    stdin_open: true    # Keeps STDIN open even if not attached
+    tty: true           # Allocates a pseudo-TTY
+    command: /bin/bash  # Override the default command to start an interactive shell
       
   #Backend
   python-api:
@@ -94,4 +97,3 @@ services:
 volumes:
   db-data:
   pgadmin-data:
-

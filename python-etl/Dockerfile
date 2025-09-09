@@ -5,9 +5,15 @@ FROM python:${PYTHON_VERSION} AS base
 
 LABEL org.opencontainers.image.source=https://github.com/Riccardo-Cpt/BillingApp
 
+#install curl module for API calls
+RUN apt-get update && apt-get install -y curl
+
+
+
 WORKDIR /app
 
-COPY ./app .
+COPY ./data ./data
+COPY ./app ./app
 
 ARG UID
 RUN adduser \
