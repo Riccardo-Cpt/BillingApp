@@ -1,5 +1,5 @@
 from modules.db_functions import db_utils as dbu
-from modules.llm_call import *
+from modules.llm_call import ollama_utils
 from modules.text_parsing import *
 import os
 import requests
@@ -9,10 +9,19 @@ import pdfplumber
 import re
 
 if __name__ == "__main__":
+
+    process_pdf = process_pdf()
     
-    print(os. getcwd())
+    landing_zone_path="/data/landing_zone"
+
+    for file in os.listdir(landing_zone_path):
+        abs_path_file=os.path.join(landing_zone_path, file)
+        list_text, list_tables = process_pdf.extract_text_and_tables(abs_path_file,[],[])
+
+        break
     
-    landing_zone_path="./Data/landing_zone"
+
+    print(list_tables[0])
     
     #retrieve database credentials from enviroment variables
     host = os.getenv("PG_HOST", "host does not exist")
@@ -37,8 +46,7 @@ if __name__ == "__main__":
     
     conn = dbu.db_connection(host=host, database=database, user=user, password=password)
     
-    answer = ollama_utils(user_input, ollama_endpoint_url, ollama_model)
-    print(answer)
+    #answer = ollama_utils.query_ollama(user_input, ollama_endpoint_url, ollama_model)
     
     
     try:

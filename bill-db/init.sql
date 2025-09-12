@@ -1,3 +1,6 @@
+--Add pgvector extension
+CREATE EXTENSION vector;
+
 -- Create the database if it does not exist
 DO $$
 BEGIN
