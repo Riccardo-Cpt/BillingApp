@@ -3,7 +3,7 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [Backend Components](#Backend-Components)
+2. [ETL](#ETL)
    - [Email loader](#Email-loader)
    - [PDF scanner](#PDF-scanner)
    - [Text parser](#Text-parser)
