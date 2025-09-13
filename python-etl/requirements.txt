@@ -1,6 +1,6 @@
 #install postgres connector
 psycopg2-binary
-#ollama
 ollama
 requests
 pdfplumber
+scikit-learn
