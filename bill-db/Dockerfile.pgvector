@@ -1,0 +1,15 @@
+# syntax=docker/dockerfile:1
+
+FROM postgres:17.6-bookworm
+
+RUN apt-get update && apt-get install -y make gcc postgresql-server-dev-17
+
+# Copy the pgvector source (previously cloned locally) into the container
+COPY pgvector /tmp/pgvector
+
+# Compile and install pgvector
+WORKDIR /tmp/pgvector
+RUN make && make install
+
+# Clean up
+RUN rm -rf /tmp/pgvector

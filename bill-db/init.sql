@@ -15,6 +15,16 @@ CREATE SCHEMA IF NOT EXISTS in_electric_bills;
 --CREATE INPUT SCHEMA TABLES
 DO $$
 BEGIN
+
+	CREATE TABLE in_electric_bills.energy_bill_embeddings (
+		id SERIAL PRIMARY KEY,
+		document_name VARCHAR(50) NOT NULL DEFAULT 'electric_bill_context_sept2025',  -- Foreign key to your documents table (if applicable)
+		text_content TEXT NOT NULL,  -- The original text
+		embedding VECTOR(768),  -- Adjust the dimension (768) to match your embedding model
+		created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+	);
+
+
     IF NOT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'in_electric_bills' AND table_name = 'supply_data') THEN
         CREATE TABLE in_electric_bills.supply_data (
             PK_BILL_PERIOD VARCHAR(50) NOT NULL,
@@ -88,27 +98,26 @@ CREATE SCHEMA IF NOT EXISTS out_electric_bills;
 
 DO $$
 BEGIN
-		--create view for out schema
-		CREATE OR REPLACE VIEW out_electric_bills.V_CURRENT_CUSTOMERS_COSTS AS
-		SELECT 		
-		    PK_BILL_PERIOD
+	--create view for out schema
+	CREATE OR REPLACE VIEW out_electric_bills.V_CURRENT_CUSTOMERS_COSTS AS
+	SELECT 		
+	    PK_BILL_PERIOD
+		, PK_SUPPLIER
+		, CD_ADDRESS
+		, PK_POD
+		, CD_OFFER
+	FROM (
+		SELECT 
+			PK_BILL_PERIOD
 			, PK_SUPPLIER
 			, CD_ADDRESS
 			, PK_POD
 			, CD_OFFER
-		FROM (
-			SELECT 
-				PK_BILL_PERIOD
-				, PK_SUPPLIER
-				, CD_ADDRESS
-				, PK_POD
-				, CD_OFFER
-				, ROW_NUMBER() OVER(PARTITION BY PK_SUPPLIER, PK_POD, CD_OFFER ORDER BY PK_BILL_PERIOD DESC) RN
-			FROM IN_ELECTRIC_BILLS.SUPPLY_DATA
-		)
-		WHERE RN = 1;
+			, ROW_NUMBER() OVER(PARTITION BY PK_SUPPLIER, PK_POD, CD_OFFER ORDER BY PK_BILL_PERIOD DESC) RN
+		FROM IN_ELECTRIC_BILLS.SUPPLY_DATA
+	)
+	WHERE RN = 1;
 END $$;
-
 
 
 -- Create the users if it does not exist

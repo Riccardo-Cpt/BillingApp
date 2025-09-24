@@ -2,7 +2,10 @@ services:
 
   #DB postgres
   bill-db:
-    image: postgres:17.5-alpine3.22
+    #image: postgres:17.5-alpine3.22
+    build:
+        context: ./bill-db
+        dockerfile: Dockerfile.pgvector  # Custom Dockerfile for pgvector
     restart: always
     volumes:
         - db-data:/var/lib/postgresql/data
@@ -93,7 +96,6 @@ services:
     volumes:
     - pgadmin-data:/var/lib/pgadmin #store connection information
 
-      
 volumes:
   db-data:
   pgadmin-data:

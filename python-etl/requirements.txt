@@ -4,3 +4,5 @@ ollama
 requests
 pdfplumber
 scikit-learn
+sqlalchemy
+pandas
