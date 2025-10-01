@@ -18,10 +18,10 @@ BEGIN
 
 	CREATE TABLE in_electric_bills.energy_bill_embeddings (
 		id SERIAL PRIMARY KEY,
-		document_name VARCHAR(50) NOT NULL DEFAULT 'electric_bill_context_sept2025',  -- Foreign key to your documents table (if applicable)
-		text_content TEXT NOT NULL,  -- The original text
-		embedding VECTOR(768),  -- Adjust the dimension (768) to match your embedding model
-		created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+		cd_document_name VARCHAR(50) NOT NULL DEFAULT 'electric_bill_context_sept2025',  -- Foreign key to your documents table (if applicable)
+		cd_text_content TEXT NOT NULL,  -- The original text
+		vc_embedding VECTOR(768),  -- Adjust the dimension (768) to match your embedding model
+		ts_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 	);
 
 
@@ -138,6 +138,8 @@ GRANT ALL PRIVILEGES ON SCHEMA in_electric_bills TO dev_backend;
 GRANT ALL PRIVILEGES ON SCHEMA out_electric_bills TO dev_backend;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA in_electric_bills TO dev_backend;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA out_electric_bills TO dev_backend;
+GRANT USAGE, SELECT ON SEQUENCE in_electric_bills.energy_bill_embeddings_id_seq TO dev_backend;
+
 
 -- Grant just read privileges to the user dev_frontend
 GRANT CONNECT ON DATABASE bills TO dev_frontend;
