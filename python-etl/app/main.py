@@ -1,6 +1,6 @@
-from modules.db_functions import db_utils as dbu
+from modules.db_functions import db_utils
 from modules.llm_call import ollama_utils
-from modules.text_parsing import *
+from modules.pdf_processing import *
 import os
 import requests
 import ollama
@@ -10,19 +10,6 @@ import re
 
 if __name__ == "__main__":
 
-    process_pdf = process_pdf()
-    
-    landing_zone_path="/data/landing_zone"
-
-    for file in os.listdir(landing_zone_path):
-        abs_path_file=os.path.join(landing_zone_path, file)
-        list_text, list_tables = process_pdf.extract_text_and_tables(abs_path_file,[],[])
-
-        break
-    
-
-    print(list_tables[0])
-    
     #retrieve database credentials from enviroment variables
     host = os.getenv("PG_HOST", "host does not exist")
     database = os.getenv("PG_NAME", "database does not exist")
@@ -32,17 +19,29 @@ if __name__ == "__main__":
     #retrieve ollama parameters
     ollama_endpoint_url=os.getenv("OLLAMA_ENDPOINT", "endpoint not received")
     ollama_model=os.getenv("OLLAMA_MODEL", "model not received")
-    
-    print(host, database, user, password, ollama_endpoint_url, ollama_model)
 
-    create_table = """CREATE TABLE IF NOT EXISTS electric_bills.user_input (
-                    id SERIAL PRIMARY KEY,
-                    input_text TEXT NOT NULL);"""
+    #Initialize classes    
+    process_pdf = process_pdf()
+    dbu = db_utils(host = host,
+            port = "5432",
+            username = user,
+            password = password,
+            db_name = database,
+        )
     
+    rg = ollama_utils(url = ollama_endpoint_url, model = ollama_model)
     
-    #ask the user to insert something in the database
-    user_input = "ciao"
+    landing_zone_path="/data/landing_zone"
+
+    #iterate through files and perform llm call
+    for file in os.listdir(landing_zone_path):
+        abs_path_file=os.path.join(landing_zone_path, file)
+        list_text, list_tables = process_pdf.extract_text_and_tables(abs_path_file,[],[])
+
+        break
     
+
+    print(list_tables[0])
     
     conn = dbu.db_connection(host=host, database=database, user=user, password=password)
     

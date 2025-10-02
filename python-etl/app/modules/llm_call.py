@@ -2,17 +2,21 @@ import ollama
 import requests
 
 class ollama_utils:
-    def query_ollama(prompt, url, model="llama3.2:1b"):
+    def __init__(self, url, model):
+        self.url = url
+        self.model = model
+
+    def query_ollama(self, prompt):
 
         headers = {"Content-Type": "application/json"}
             
         data = {
-            "model": model,
+            "model": self.model,
             "prompt": prompt,
             "stream": False,
             "options": {"temperature": 0},
         }
 
-        response = requests.post(url, headers=headers, json=data)
+        response = requests.post(self.url, headers=headers, json=data)
         response.raise_for_status()
         return response.json()["response"]
