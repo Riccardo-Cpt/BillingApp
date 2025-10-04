@@ -35,7 +35,7 @@ The application is composed of the following microservices (explained in more de
    - **Output Layer**: This layer represents refined data from the previous layer in the form of views. This layer will be exposed to APIs.  
 
 3. **Web Backend**  
-   A layer of RESTful GET APIs used to query the database output layer.
+   A layer of Django RESTful GET APIs used to query the database output layer.
 
 4. **Web Frontend**  
    The frontend visualizes data and useful metrics in a simple and straightforward way.
@@ -57,8 +57,6 @@ JSON file read as dataframe throug pandas library. Dataframe are then loaded to 
 
 # API 
 Will be developed in Django
-1. 
-Exports data to frontend Flask/Django REST framework (whatever is simpler).
 
 # Frontend Components
 TBD
