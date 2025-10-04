@@ -3,21 +3,43 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [ETL](#ETL)
-   - [Email loader](#Email-loader)
-   - [PDF scanner](#PDF-scanner)
-   - [Text parser](#Text-parser)
-   - [Table loader](#Table-loader)
-4. [Postgres Tables](#Postgres-Tables)
-   - [Input layer](#Input-layer)
-   - [Output layer](#Output-layer)
-6. [Frontend Components](#getting-started)
-   - [TBD](#installation)
-7. [User Accounts](#User-Accounts)
+   - [Technical solution](#technical-solution)
+2. [ETL components](#etl)
+   - [Email loader](#email_loader)
+   - [PDF scanner](#pdf-scanner)
+   - [Text parser](#text-parser)
+   - [Table loader](#table-loader)
+3. [API](#api)
+4. [Frontend Components](#frontend-components)
+5. [Alerts](#alerts)
+6. [Postgres Tables](#postgres-tables)
+   - [Input layer](#input-layer-schema-in_electric_bills)
+   - [Output layer](#output-layer-schema-out_electric_bills)
+7. [User Accounts](#user-accounts)
 
 # Introduction
-Goal of this app is to track electrical bills expenses by scanning PDF files, extract relevant information and store them in a Postgres DB.
-A frontend service should pull data from postgres and create dashboards showing only relevant information.
+This app scans PDF bills to track electricity expenses, providing a dashboard and alert system to monitor costs over time and compare energy prices with ARERA’s regulated rates.
+
+## Technical solution
+The entire application is designed using a microservices architecture, containerized with Docker. This ensures secure network access, leverages built-in components, and enables cross-platform portability for easy environment setup. It also provides the ability to scale components efficiently as your project grows.
+
+The application is composed of the following microservices (explained in more detail in later chapters):
+
+1. **ETL**  
+   This component downloads electric bill PDFs from the user’s email (via secure OAuth2 authentication), scans the PDF files to extract relevant information, and uses RAG to extract new context and prompt the LLM. This process transforms unstructured data into structured data, which is then loaded into database tables.
+
+2. **Database**  
+   PostgreSQL is used as the database engine. The database is organized into the following schemas/layers:  
+   - **Metadata**: In this layer, application run data and logs will be collected. A pgvector-enabled table will be used for RAG operations. Only users with backend privileges will have access to this layer.  
+   - **Input Layer**: This layer collects raw data from the ETL pipeline into tables. Only users with backend privileges will have access to this layer.  
+   - **Output Layer**: This layer represents refined data from the previous layer in the form of views. This layer will be exposed to APIs.  
+
+3. **Web Backend**  
+   A layer of RESTful GET APIs used to query the database output layer.
+
+4. **Web Frontend**  
+   The frontend visualizes data and useful metrics in a simple and straightforward way.
+
 
 # ETL
 
