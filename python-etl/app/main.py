@@ -8,6 +8,98 @@ import psycopg2
 import pdfplumber
 import re
 
+
+def get_relevant_chunks(self, query, schema, table_name, vector_column, context_column, top_k=1):
+    """
+    Retrieves the top_k most relevant chunks from a PostgreSQL table based on cosine similarity between the query embedding and stored embeddings.
+
+    Args:
+        query (str): The input query to find relevant chunks for.
+        schema (str): The schema name in PostgreSQL.
+        table_name (str): The table name in PostgreSQL.
+        vector_column (str): The column name containing the embeddings.
+        context_column (str): The column name containing the context text.
+        top_k (int): Number of relevant chunks to retrieve (default: 1).
+
+    Returns:
+        list: A list of the top_k relevant context strings.
+    """
+    # Get the embedding for the query
+    query_embedding = np.array(self.call_ollama_api_embedding(query))
+
+    # Establish a connection to the database
+    conn = self.db_connection(
+        host=self.conn["host"],
+        database=self.conn["db_name"],
+        user=self.conn["username"],
+        password=self.conn["password"]
+    )
+
+    # Create a cursor
+    cur = conn.cursor()
+
+    # Query to find the top_k most similar embeddings using cosine similarity
+    # Note: This assumes you have the pgvector extension installed and the vector column is of type 'vector'
+    sql = f"""
+        SELECT {context_column}
+        FROM {schema}.{table_name}
+        ORDER BY {vector_column} <=> %s
+        LIMIT %s;
+    """
+
+    # Execute the query
+    cur.execute(sql, (query_embedding, top_k))
+
+    # Fetch the results
+    results = cur.fetchall()
+
+    # Close the cursor and connection
+    cur.close()
+    conn.close()
+
+    # Extract the context from the results
+    relevant_chunks = [result[0] for result in results]
+
+    return relevant_chunks
+
+
+
+"""This pipeline does:
+    1. From input prompt computes embeddings
+    2. Use cosine similarity to find in RAG in vector database postgres
+    3. Make the actual prompt to the model consisting of RAG output + original prompt
+    4. Store the JSON output in a pandas
+
+"""
+def rag_pipeline(prompt, context_list, ollama_url, model):
+    # Initialize Ollama utils
+    ollama_client = ollama_utils(ollama_url, model)
+
+    # Step 1: Extract context from JSON strings
+    texts_for_embedding = ollama_client.extract_context(context_list)
+
+    # Step 2: Compute embeddings for context chunks
+    embeddings = ollama_client.compute_embeddings(texts_for_embedding)
+
+    # Step 3: Get relevant chunks based on cosine similarity
+    relevant_chunks = ollama_client.get_relevant_chunks(prompt, embeddings, texts_for_embedding, top_k=1)
+
+    # Step 4: Build the augmented prompt
+    augmented_prompt = f"Context: {relevant_chunks[0]}\n\nQuestion: {prompt}"
+
+    # Step 5: Call Ollama's generate API with the augmented prompt
+    response = ollama_client._call_ollama_api_generate(augmented_prompt)
+
+    # Return the final output in JSON format
+    return {
+        "prompt": prompt,
+        "retrieved_context": relevant_chunks,
+        "response": response
+    }
+
+
+
+
 if __name__ == "__main__":
 
     #retrieve database credentials from enviroment variables
@@ -29,7 +121,7 @@ if __name__ == "__main__":
             db_name = database,
         )
     
-    rg = ollama_utils(url = ollama_endpoint_url, model = ollama_model)
+    ou = ollama_utils(url = ollama_endpoint_url, model = ollama_model)
     
     landing_zone_path="/data/landing_zone"
 
@@ -38,10 +130,31 @@ if __name__ == "__main__":
         abs_path_file=os.path.join(landing_zone_path, file)
         list_text, list_tables = process_pdf.extract_text_and_tables(abs_path_file,[],[])
 
+        #for each free text derived from a table, perform the RAG
+        for text_table in list_tables:
+            dict_table = {"table" : text_table}
+            embedding_prompt_tuple = ou.compute_embeddings(dict_table)
+
+            #extract the embedding only from associated to the given promt
+            embedded_prompt = embedding_prompt_tuple[0][1]
+
+            #Retrieve augmented context associated to prompt from the database
+            results = dbu.find_most_similar_embedding(
+                                                    embedded_prompt,
+                                                    schema="in_electric_bills",
+                                                    table="energy_bill_embeddings",
+                                                    array_column="vc_embedding",
+                                                    text_column="cd_text_content",
+                                                    top_k=1,
+                                                    similarity_type = "<=>" #cosine similarity
+                                                
+                                                )
+
+            print(results)
+
+            break
         break
     
-
-    print(list_tables[0])
     
     conn = dbu.db_connection(host=host, database=database, user=user, password=password)
     

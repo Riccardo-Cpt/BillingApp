@@ -5,7 +5,7 @@ FROM postgres:17.6-bookworm
 RUN apt-get update && apt-get install -y make gcc postgresql-server-dev-17
 
 # Copy the pgvector source (previously cloned locally) into the container
-COPY pgvector /tmp/pgvector
+COPY ./pgvector /tmp/pgvector
 
 # Compile and install pgvector
 WORKDIR /tmp/pgvector

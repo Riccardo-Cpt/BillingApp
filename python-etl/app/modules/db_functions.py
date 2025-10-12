@@ -1,6 +1,9 @@
 import psycopg2
 import pandas as pd
 from sqlalchemy import create_engine
+from psycopg2.extras import RealDictCursor
+import numpy as np
+
 
 class db_utils:
 
@@ -15,6 +18,7 @@ class db_utils:
             password: PostgreSQL password.
             db_name: PostgreSQL database name.
         """
+
         self.conn = {
             "host": host,
             "port": port,
@@ -24,17 +28,16 @@ class db_utils:
         }
         self.engine = self._create_engine()
 
-    @staticmethod
-    def db_connection(host, database, user, password):
+    def db_connection(self):
         """Establish a connection to the PostgreSQL database."""
-        conn = psycopg2.connect(
-                host=host,
-                database=database,
-                user=user,
-                password=password
-            )
-            
-        return conn
+        conn_params = {
+            "host": self.conn["host"],
+            "port": self.conn["port"],
+            "user": self.conn["username"],
+            "password": self.conn["password"],
+            "dbname": self.conn["db_name"],
+        }
+        return psycopg2.connect(**conn_params)
     
     def _create_engine(self):
         """Create a SQLAlchemy engine using the connection parameters."""
@@ -75,3 +78,56 @@ class db_utils:
             dtype=dtype,
         )
         print(f"Data loaded to {schema}.{table_name} successfully!")
+
+    def find_most_similar_embedding(
+        self,
+        embedding: np.ndarray,
+        schema: str,
+        table: str,
+        array_column: str,
+        text_column: str,
+        similarity_type: str = "<=>",
+        top_k: int = 1,
+    ) -> list[dict]:
+        """
+        Find the most similar embedding(s) in a PostgreSQL table using cosine similarity.
+
+        Args:
+            embedding: Input embedding as a NumPy array (dtype=np.float32).
+            schema: PostgreSQL schema name.
+            table: PostgreSQL table name.
+            array_column: Name of the vector column in the table (default: "vc_array").
+            text_column: Name of the text column to return (default: "cd_text_content").
+            top_k: Number of most similar embeddings to return (default: 1).
+
+        Returns:
+            List of dictionaries, each containing the text and similarity score.
+        """
+        # Convert the input embedding to a list for SQL query
+        embedding_list = embedding.tolist()
+        if isinstance(embedding_list[0], list) and len(embedding_list) == 1:
+            embedding_list = embedding_list[0]  # Flatten if nested
+
+        # SQL query using the <=> operator for cosine distance
+        query = f"""
+            SELECT
+                {text_column},
+                1 - ({array_column} {similarity_type} CAST(%s AS vector)) AS cosine_similarity
+            FROM
+                {schema}.{table}
+            ORDER BY
+                {array_column} {similarity_type} CAST(%s AS vector)
+            LIMIT %s;
+        """
+
+        #define connection with db
+        conn = self.db_connection()
+
+
+        try:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                cur.execute(query, (embedding_list, embedding_list, top_k))
+                results = cur.fetchall()
+            return results
+        finally:
+            conn.close()
