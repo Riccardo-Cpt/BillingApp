@@ -13,9 +13,11 @@
 4. [Frontend Components](#frontend-components)
 5. [Alerts](#alerts)
 6. [Postgres Tables](#postgres-tables)
+   - [Embedding layer](#embedding-layer-schema-embeddings)
+   - [Landing layer](#landing-layer-schema-landing)
    - [Input layer](#input-layer-schema-in_electric_bills)
    - [Output layer](#output-layer-schema-out_electric_bills)
-7. [User Accounts](#user-accounts)
+8. [User Accounts](#user-accounts)
 
 # Introduction
 This app is designed to **scan and analyze PDF electricity bills**, helping users track their energy expenses over time. It provides a dashboard for visualizing costs and an alert system to notify users of significant changes. The app also compares actual energy prices with the regulated rates set by ARERA (the Italian Regulatory Authority for Energy, Networks, and Environment), ensuring transparency and fairness in billing.
@@ -83,7 +85,9 @@ TBD
 - Alert to trigger when cost per Kw is higher than average cost declared in ARERA website (understand if possible)
 
 # Postgres Tables
-## Embedding layer: energy_bill_embeddings
+## Embedding layer: schema embeddings
+
+## Table energy_bill_embeddings
 This table is used in the RAG system to instruct the LLM on what data to extract from the input free text and to structure the output in a specific format, enabling it to be loaded into the associated database table.
 | Column Name | Data Type | Constraints |Description |
 |-------------|-----------|-------------|-------------|
@@ -93,7 +97,7 @@ This table is used in the RAG system to instruct the LLM on what data to extract
 | VC_EMBEDDING | Vector(768) ||Embedding calculated from CD_TEXT_CONTENT associated value. Algorithm nomic-embed-text model is used to compute this value|
 |TS_CREATION|Timestamp||Timestap of creation of the record|
 
-## Landing layer:
+## Landing layer: schema landing
 In this layer will be created tables on runtime from pandas databases.
 
 ## Input layer: schema in_electric_bills
