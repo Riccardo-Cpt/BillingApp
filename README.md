@@ -6,7 +6,7 @@
    - [Technical solution](#technical-solution)
 2. [ETL components](#etl)
    - [Email loader](#email_loader)
-   - [PDF scanner](#pdf-scanner)
+   - [PDF scanner](#pdf-processing)
    - [Text parser](#text-parser)
    - [Table loader](#table-loader)
 3. [API](#api)
@@ -46,8 +46,8 @@ The application is composed of the following microservices (explained in more de
 ## Email_loader
 TBD: goal access gmail account throug Oauth2 autentication, intercept new files and download them in dedicated folder. Understand how to securely download files inside docker container.
 
-## PDF scanner
-Pybplumber library used to parse each page of target PDF file. Irrelevant pages must be recognized and ignored in this step.
+## PDF processing
+This module is designed to parse PDF files sent by the billing company. Since most of the data in these PDFs is stored in tables, the PyPDFPlumber library was the best choice due to its extract_tables() function, which has proven more reliable than similar functions in competing libraries (e.g., PyMuPDF).
 
 ## Text parser
 TBD: provided list of keywords, associate to each keyword an information extracted from text. Return a file in JSON format
