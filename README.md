@@ -53,6 +53,7 @@ The application is composed of the following microservices (explained in more de
    The frontend visualizes data and useful metrics in a simple and straightforward way.
 
 NOTES:
+- **Landing schema**: before loading data to in_electric_bills schema is better temporary load them in a landing schema and validate them before promoting them to next layer
 - **Data quality**: data quality steps are skipped for now. If the project bacame serious, it will be important to validate the output of the model before producing a biased visualization
 - **LLM server**: For now, llm model is hosted locally and separated from other components of the app. Docker is implementing containers model, I do not chose to implement them along the app because I want to maintain it lightweight. This version of the app is able to call model inside ollama framework only (locally hosted in the same machine off the app).
 Adopting a more generic framework like langhchain or hosting the model in a secured and private endpoint in the same network of the app  will be the optimal solution (for simplicity I am not following these best practices)
