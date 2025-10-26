@@ -83,7 +83,7 @@ TBD
 - Alert to trigger when cost per Kw is higher than average cost declared in ARERA website (understand if possible)
 
 # Postgres Tables
-## Embedding vector table: energy_bill_embeddings
+## Embedding layer: energy_bill_embeddings
 This table is used in the RAG system to instruct the LLM on what data to extract from the input free text and to structure the output in a specific format, enabling it to be loaded into the associated database table.
 | Column Name | Data Type | Constraints |Description |
 |-------------|-----------|-------------|-------------|
