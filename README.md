@@ -3,29 +3,70 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [ETL](#ETL)
-   - [Email loader](#Email-loader)
-   - [PDF scanner](#PDF-scanner)
-   - [Text parser](#Text-parser)
-   - [Table loader](#Table-loader)
-4. [Postgres Tables](#Postgres-Tables)
-   - [Input layer](#Input-layer)
-   - [Output layer](#Output-layer)
-6. [Frontend Components](#getting-started)
-   - [TBD](#installation)
-7. [User Accounts](#User-Accounts)
+   - [Technical solution](#technical-solution)
+2. [ETL components](#etl)
+   - [Email loader](#email_loader)
+   - [PDF processing](#pdf-processing)
+   - [Text parser](#text-parser)
+   - [Table loader](#table-loader)
+3. [API](#api)
+4. [Frontend Components](#frontend-components)
+5. [Alerts](#alerts)
+6. [Postgres Tables](#postgres-tables)
+   - [Embedding layer](#embedding-layer-schema-embeddings)
+   - [Landing layer](#landing-layer-schema-landing)
+   - [Input layer](#input-layer-schema-in_electric_bills)
+   - [Output layer](#output-layer-schema-out_electric_bills)
+8. [User Accounts](#user-accounts)
 
 # Introduction
-Goal of this app is to track electrical bills expenses by scanning PDF files, extract relevant information and store them in a Postgres DB.
-A frontend service should pull data from postgres and create dashboards showing only relevant information.
+This app is designed to **scan and analyze PDF electricity bills**, helping users track their energy expenses over time. It provides a dashboard for visualizing costs and an alert system to notify users of significant changes. The app also compares actual energy prices with the regulated rates set by ARERA (the Italian Regulatory Authority for Energy, Networks, and Environment), ensuring transparency and fairness in billing.
+Key Advantages:
+
+1. **Local Hosting**: The app can be hosted locally, ensuring that sensitive billing data is never uploaded to third-party services, thus protecting user privacy.
+2. **Price Monitoring**: It verifies that the prices charged in bills align with ARERA’s average regulated rates, helping users detect unjustified price increases.
+3. **Historical Comparison**: The app tracks how current energy prices compare to the same period in previous years, allowing users to identify potential issues such as leaks, inefficiencies, or poorly maintained electrical lines or devices.
+
+Origin of the Idea:
+The app was inspired by the introduction of the **"mercato libero"** (free market) for electricity providers in Italy. A common issue in this system is that providers often raise prices without notifying users after a few years of a contract. This app addresses this problem by automating price monitoring and ensuring users are aware of any discrepancies or unexpected increases
+
+## Technical solution
+The entire application is designed using a microservices architecture, containerized with Docker. This ensures secure network access, leverages built-in components, and enables cross-platform portability for easy environment setup. It also provides the ability to scale components efficiently as your project grows.
+
+The application is composed of the following microservices (explained in more detail in later chapters):
+
+1. **ETL**  
+   This component downloads electric bill PDFs from the user’s email (via secure OAuth2 authentication), scans the PDF files to extract relevant information, and uses RAG to extract new context and prompt the LLM. This process transforms unstructured data into structured data, which is then loaded into database tables.
+
+3. **LLM**
+   For testing purposes, a local version of llama 3.2:1b, a very lightweight, but still good performing model is used. If this project became serious a more advanced and intelligent model will be used.
+
+5. **Database**  
+   PostgreSQL is used as the database engine. The database is organized into the following schemas/layers:
+   - **Embeddings**: In this layer, embeddings vector will be stored to perform a RAG pipeline. These embeddings provide the LLM model a defined structure on how to parse the input and and transform in a structured output.
+   - **Metadata**: In this layer, application run data and logs will be collected. A pgvector-enabled table will be used for RAG operations. Only users with backend privileges will have access to this layer.  
+   - **Input Layer**: This layer collects raw data from the ETL pipeline into tables. Only users with backend privileges will have access to this layer.  
+   - **Output Layer**: This layer represents refined data from the previous layer in the form of views. This layer will be exposed to APIs.  
+
+6. **Web Backend**  
+   A layer of Django RESTful GET APIs used to query the database output layer.
+
+7. **Web Frontend**  
+   The frontend visualizes data and useful metrics in a simple and straightforward way.
+
+NOTES:
+- **Landing schema**: before loading data to in_electric_bills schema is better temporary load them in a landing schema and validate them before promoting them to next layer
+- **Data quality**: data quality steps are skipped for now. If the project bacame serious, it will be important to validate the output of the model before producing a biased visualization
+- **LLM server**: For now, llm model is hosted locally and separated from other components of the app. Docker is implementing containers model, I do not chose to implement them along the app because I want to maintain it lightweight. This version of the app is able to call model inside ollama framework only (locally hosted in the same machine off the app).
+Adopting a more generic framework like langhchain or hosting the model in a secured and private endpoint in the same network of the app  will be the optimal solution (for simplicity I am not following these best practices)
 
 # ETL
 
 ## Email_loader
 TBD: goal access gmail account throug Oauth2 autentication, intercept new files and download them in dedicated folder. Understand how to securely download files inside docker container.
 
-## PDF scanner
-Pybplumber library used to parse each page of target PDF file. Irrelevant pages must be recognized and ignored in this step.
+## PDF processing
+This module is designed to parse PDF files sent by the billing company. Since most of the data in these PDFs is stored in tables, the PyPDFPlumber library was the best choice due to its extract_tables() function, which has proven more reliable than similar functions in competing libraries (e.g., PyMuPDF).
 
 ## Text parser
 TBD: provided list of keywords, associate to each keyword an information extracted from text. Return a file in JSON format
@@ -35,8 +76,6 @@ JSON file read as dataframe throug pandas library. Dataframe are then loaded to 
 
 # API 
 Will be developed in Django
-1. 
-Exports data to frontend Flask/Django REST framework (whatever is simpler).
 
 # Frontend Components
 TBD
@@ -46,7 +85,23 @@ TBD
 - Alert to trigger when cost per Kw is higher than average cost declared in ARERA website (understand if possible)
 
 # Postgres Tables
+## Embedding layer: schema embeddings
+
+## Table energy_bill_embeddings
+This table is used in the RAG system to instruct the LLM on what data to extract from the input free text and to structure the output in a specific format, enabling it to be loaded into the associated database table.
+| Column Name | Data Type | Constraints |Description |
+|-------------|-----------|-------------|-------------|
+| ID|Serial|NOT NULL|Unique incremental integer|
+| DOCUMENT_NAME|String||Name of the document used to load data to this table|
+| CD_TEXT_CONTENT | String ||Text loaded in the table. This text will be used in a RAG pipeline to add addidional context to user prompt to the LLM. **Note**: converting this field to json type would be preferrable |
+| VC_EMBEDDING | Vector(768) ||Embedding calculated from CD_TEXT_CONTENT associated value. Algorithm nomic-embed-text model is used to compute this value|
+|TS_CREATION|Timestamp||Timestap of creation of the record|
+
+## Landing layer: schema landing
+In this layer will be created tables on runtime from pandas databases.
+
 ## Input layer: schema in_electric_bills
+After filling all tables in landing layer, a single multi table transaction will be responsible to load data in tables of this schema
 ### Table1: SUPPLY_DATA
 This table contains information about energy supplier, contract type, reference period and other anagraphical information
 | Column Name | Data Type | Constraints |Description |
