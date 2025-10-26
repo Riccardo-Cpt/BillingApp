@@ -1,11 +1,6 @@
 import ollama
 import requests
 import os
-from sklearn.metrics.pairwise import cosine_similarity
-
-import ollama
-import requests
-import os
 import json
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity

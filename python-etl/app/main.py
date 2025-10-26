@@ -7,7 +7,7 @@ import ollama
 import psycopg2
 import pdfplumber
 import re
-
+import pandas as pd
 
 def get_relevant_chunks(self, query, schema, table_name, vector_column, context_column, top_k=1):
     """
@@ -135,7 +135,7 @@ if __name__ == "__main__":
             dict_table = {"table" : text_table}
             embedding_prompt_tuple = ou.compute_embeddings(dict_table)
 
-            #extract the embedding only from associated to the given promt
+            #extract the embedding related to table text
             embedded_prompt = embedding_prompt_tuple[0][1]
 
             #Retrieve augmented context associated to prompt from the database
@@ -150,13 +150,36 @@ if __name__ == "__main__":
                                                 
                                                 )
 
-            print(results)
+            # Extract the JSON string from the output and parse the json
+            data = json.loads(results[0]['cd_text_content'])
+            # Dynamically get the first key in the dictionary
+            # Extract the nested dictionary using the dynamic key
+            rag_context = data[next(iter(data))]
+
+            #Generate a prompt from initial table extracted text + RAG text
+            composed_prompt = f"""Ti viene fornito uil seguente testo:{text_table}
+            Obbiettivo: Devi rimpiazzare il testo in seguito tra apici con informazioni estratte dal testo precedente. Le informazioni aggiuntive non servono, ignorale. Non generare spiegazioni:{rag_context}
+            """
+
+            response = ou.call_ollama_api_generate(composed_prompt)
+            # Parse the string into a dictionary using list comprehension
+            # Only split lines that contain ':'
+            json_response = {
+                k.strip(): v.strip()
+                for line in response.strip().split('\n')
+                if ':' in line
+                for k, v in [line.split(':', 1)]
+            }
+
+            # Create a DataFrame
+            df_response = pd.DataFrame([json_response])
+            print(df_response)
 
             break
         break
     
     
-    conn = dbu.db_connection(host=host, database=database, user=user, password=password)
+    conn = dbu.db_connection()
     
     #answer = ollama_utils.query_ollama(user_input, ollama_endpoint_url, ollama_model)
     
