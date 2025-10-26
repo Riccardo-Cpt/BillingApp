@@ -8,6 +8,7 @@ import psycopg2
 import pdfplumber
 import re
 import pandas as pd
+import datetime
 
 def get_relevant_chunks(self, query, schema, table_name, vector_column, context_column, top_k=1):
     """
@@ -107,6 +108,9 @@ if __name__ == "__main__":
     database = os.getenv("PG_NAME", "database does not exist")
     user = os.getenv("PG_USER_BACKEND", "user does not exist")
     password = os.getenv("PG_PASSWORD_BACKEND", "password does not exist")
+    embedding_schema="embeddings"
+    landing_schema="landing"
+    loading_schema="in_electric_bills"
     
     #retrieve ollama parameters
     ollama_endpoint_url=os.getenv("OLLAMA_ENDPOINT", "endpoint not received")
@@ -141,7 +145,7 @@ if __name__ == "__main__":
             #Retrieve augmented context associated to prompt from the database
             results = dbu.find_most_similar_embedding(
                                                     embedded_prompt,
-                                                    schema="in_electric_bills",
+                                                    schema=loading_schema,
                                                     table="energy_bill_embeddings",
                                                     array_column="vc_embedding",
                                                     text_column="cd_text_content",
@@ -152,9 +156,10 @@ if __name__ == "__main__":
 
             # Extract the JSON string from the output and parse the json
             data = json.loads(results[0]['cd_text_content'])
-            # Dynamically get the first key in the dictionary
+            # Dynamically get the first key in the dictionary. This key is associated with the subject of extracted context
+            context_subject = next(iter(data))
             # Extract the nested dictionary using the dynamic key
-            rag_context = data[next(iter(data))]
+            rag_context = data[context_subject]
 
             #Generate a prompt from initial table extracted text + RAG text
             composed_prompt = f"""Ti viene fornito uil seguente testo:{text_table}
@@ -173,31 +178,41 @@ if __name__ == "__main__":
 
             # Create a DataFrame
             df_response = pd.DataFrame([json_response])
-            print(df_response)
+            df_response["TS_INGESTION"]=datetime.datetime.now()
+            df_response["INPUT_FILE_NAME"]=file
+            print(f"Si sta elaborando: {context_subject}")
+            print(f"Risposta ottenuta da llm: {json_response}")
+            
+            #extract the table where data converted in dataframe should be loaded
+            db_table_name=dbu.rag_mapping_to_db(context_subject)
 
-            break
+            #################################################
+            #SKIPPING ANY DATA QUALITY TO EVALUATE THE OUTPUT
+            #################################################
+
+
+            # TO DO: CREATE EMPTY DATAFRAMES WITH FIXED SCHEMA BEFORE ITERATING OVER FILES.
+            # AT EACH ITERATION ADD A NEW ROW TO THE DATAFRAME
+            # AT THE END OF ITERATIONS LOAD ALL DATA FROM DATAFRAMES INTO TABLES
+
+            #Load data in dataframe into postgres table
+            try:
+                dbu.load_dataframe(
+                        df=df_response,
+                        table_name=db_table_name.lower(),#lower function to create an object in lowercase characters in postgres
+                        schema=landing_schema,
+                        if_exists = "append",
+                        index= False,
+                        chunksize = None,
+                        dtype= None
+                )
+            
+            except Exception as e:
+                print(f"No data will be loaded into table: {db_table_name}")
+
+
+
+            #break
         break
     
-    
-    conn = dbu.db_connection()
-    
-    #answer = ollama_utils.query_ollama(user_input, ollama_endpoint_url, ollama_model)
-    
-    
-    try:
-        print("--Connecting to database--")
-                
-        # Execute query
-        #dbu.db_execute_query(conn, create_table)    
-
-        # Use parameterized query to avoid SQL injection
-        #insert_query = "INSERT INTO electric_bills.user_input (input_text) VALUES (%s);"
-        #dbu.db_execute_query(conn, insert_query, (user_input,))
-
-        print("--All done, closing connection--")
-        # Close the connection
-        conn.close()
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        raise
 

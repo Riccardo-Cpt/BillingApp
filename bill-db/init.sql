@@ -10,13 +10,15 @@ BEGIN
 END $$;
 
 -- Create the schema if it does not exist
+CREATE SCHEMA IF NOT EXISTS landing;
 CREATE SCHEMA IF NOT EXISTS in_electric_bills;
+CREATE SCHEMA IF NOT EXISTS embeddings;
 
 --CREATE INPUT SCHEMA TABLES
 DO $$
 BEGIN
 
-	CREATE TABLE in_electric_bills.energy_bill_embeddings (
+	CREATE TABLE embeddings.energy_bill_embeddings (
 		id SERIAL PRIMARY KEY,
 		cd_document_name VARCHAR(50) NOT NULL DEFAULT 'electric_bill_context_sept2025',  -- Foreign key to your documents table (if applicable)
 		cd_text_content TEXT NOT NULL,  -- The original text
@@ -134,12 +136,15 @@ END $$;
 
 -- Grant all privileges on the database and schema to the user dev_backend
 GRANT ALL PRIVILEGES ON DATABASE bills TO dev_backend;
+GRANT ALL PRIVILEGES ON SCHEMA embeddings TO dev_backend;
 GRANT ALL PRIVILEGES ON SCHEMA in_electric_bills TO dev_backend;
 GRANT ALL PRIVILEGES ON SCHEMA out_electric_bills TO dev_backend;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA embeddings TO dev_backend;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA in_electric_bills TO dev_backend;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA out_electric_bills TO dev_backend;
-GRANT USAGE, SELECT ON SEQUENCE in_electric_bills.energy_bill_embeddings_id_seq TO dev_backend;
-
+GRANT USAGE, SELECT ON SEQUENCE embeddings.energy_bill_embeddings_id_seq TO dev_backend;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA in_electric_bills TO dev_backend;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA landing TO dev_backend;
 
 -- Grant just read privileges to the user dev_frontend
 GRANT CONNECT ON DATABASE bills TO dev_frontend;

@@ -28,6 +28,20 @@ class db_utils:
         }
         self.engine = self._create_engine()
 
+        #Map context RAG subject with table name where content inferred by LLM must be loaded
+        self.mapping = {
+            "DATI FORNITURA ELETTRICO" : "SUPPLY_DATA",
+            "INFORMAZIONI GENERALI" : "BILL_OVERVIEW",
+            "CONSUMI FATTURATI ED EFFETTIVI"  : "ELECTRICITY_METER_READINGS",
+            "CONSUMI" :"ELECTRICITY_METER_CONSUMPION_INFERRED",
+            "NOME FORNITORE" : "SUPPLIER_NAME",
+        }
+    
+    #This function maps the subect attributed to extracted context to the actual name of the postgres table where those data should be loaded
+    def rag_mapping_to_db(self, context_subject: str) -> str:
+
+        return self.mapping[context_subject]
+
     def db_connection(self):
         """Establish a connection to the PostgreSQL database."""
         conn_params = {
@@ -68,7 +82,7 @@ class db_utils:
             chunksize: Rows to write at a time (for large DataFrames).
             dtype: SQL data types for columns (optional).
         """
-        df.to_sql(
+        output = df.to_sql(
             name=table_name,
             con=self.engine,
             schema=schema,  # Pass the schema here
@@ -77,8 +91,8 @@ class db_utils:
             chunksize=chunksize,
             dtype=dtype,
         )
-        print(f"Data loaded to {schema}.{table_name} successfully!")
-
+        print(f"Sql alchemy tried to insert records on table {schema}.{table_name} and provided following output: {output}")
+        
     def find_most_similar_embedding(
         self,
         embedding: np.ndarray,

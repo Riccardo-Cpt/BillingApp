@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
     # SQL for insertion
     sql = """
-        INSERT INTO in_electric_bills.energy_bill_embeddings
+        INSERT INTO embeddings.energy_bill_embeddings
         (cd_document_name, cd_text_content, vc_embedding, ts_creation)
         VALUES %s
     """

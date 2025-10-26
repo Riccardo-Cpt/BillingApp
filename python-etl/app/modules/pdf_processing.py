@@ -4,7 +4,7 @@ import pdfplumber
 import re
 import pdfplumber
 import re
-
+import pandas as pd
 
 class tables_excluded:
     _energy_provenience = {
@@ -25,7 +25,19 @@ class tables_excluded:
 class process_pdf(tables_excluded):
 
     def __init__(self):
-        pass
+        self.supply_data = pd.DataFrame(columns=[
+                        "INDIRIZZO",
+                        "POD",
+                        "POTENZA IMPEGNATA",
+                        "POTENZA DISPONIBILE",
+                        "TIPOLOGIA OFFERTA",
+                        "INIZIO OFFERTA",
+                        "FINE OFFERTA"
+                    ])
+        
+        
+        
+
 
     def remove_glyphs(self, text):
         """Remove glyphs like (cid:76) or (cid:<76>) from a text string."""
