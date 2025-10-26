@@ -36,9 +36,10 @@ The application is composed of the following microservices (explained in more de
 1. **ETL**  
    This component downloads electric bill PDFs from the user’s email (via secure OAuth2 authentication), scans the PDF files to extract relevant information, and uses RAG to extract new context and prompt the LLM. This process transforms unstructured data into structured data, which is then loaded into database tables.
 
-3. 
+3. **LLM**
+   For testing purposes, a local version of llama 3.2:1b, a very lightweight, but still good performing model is used. If this project became serious a more advanced and intelligent model will be used.
 
-4. **Database**  
+5. **Database**  
    PostgreSQL is used as the database engine. The database is organized into the following schemas/layers:
    - **Embeddings**: In this layer, embeddings vector will be stored to perform a RAG pipeline. These embeddings provide the LLM model a defined structure on how to parse the input and and transform in a structured output.
    - **Metadata**: In this layer, application run data and logs will be collected. A pgvector-enabled table will be used for RAG operations. Only users with backend privileges will have access to this layer.  
@@ -51,6 +52,10 @@ The application is composed of the following microservices (explained in more de
 7. **Web Frontend**  
    The frontend visualizes data and useful metrics in a simple and straightforward way.
 
+NOTES:
+- **Data quality**: data quality steps are skipped for now. If the project bacame serious, it will be important to validate the output of the model before producing a biased visualization
+- **LLM server**: For now, llm model is hosted locally and separated from other components of the app. Docker is implementing containers model, I do not chose to implement them along the app because I want to maintain it lightweight. This version of the app is able to call model inside ollama framework only (locally hosted in the same machine off the app).
+Adopting a more generic framework like langhchain or hosting the model in a secured and private endpoint in the same network of the app  will be the optimal solution (for simplicity I am not following these best practices)
 
 # ETL
 
