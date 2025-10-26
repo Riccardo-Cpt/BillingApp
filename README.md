@@ -93,7 +93,11 @@ This table is used in the RAG system to instruct the LLM on what data to extract
 | VC_EMBEDDING | Vector(768) ||Embedding calculated from CD_TEXT_CONTENT associated value. Algorithm nomic-embed-text model is used to compute this value|
 |TS_CREATION|Timestamp||Timestap of creation of the record|
 
+## Landing layer:
+In this layer will be created tables on runtime from pandas databases.
+
 ## Input layer: schema in_electric_bills
+After filling all tables in landing layer, a single multi table transaction will be responsible to load data in tables of this schema
 ### Table1: SUPPLY_DATA
 This table contains information about energy supplier, contract type, reference period and other anagraphical information
 | Column Name | Data Type | Constraints |Description |
