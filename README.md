@@ -88,7 +88,7 @@ This table is used in the RAG system to instruct the LLM on what data to extract
 |-------------|-----------|-------------|-------------|
 | ID|Serial|NOT NULL|Unique incremental integer|
 | DOCUMENT_NAME|String||Name of the document used to load data to this table|
-| CD_TEXT_CONTENT | String ||Text loaded in the table. This text will be used in a RAG pipeline to add addidional context to user prompt to the LLM |
+| CD_TEXT_CONTENT | String ||Text loaded in the table. This text will be used in a RAG pipeline to add addidional context to user prompt to the LLM. **Note**: converting this field to json type would be preferrable |
 | VC_EMBEDDING | Vector(768) ||Embedding calculated from CD_TEXT_CONTENT associated value. Algorithm nomic-embed-text model is used to compute this value|
 |TS_CREATION|Timestamp||Timestap of creation of the record|
 
